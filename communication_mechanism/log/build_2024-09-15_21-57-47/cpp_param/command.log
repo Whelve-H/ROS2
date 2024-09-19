@@ -1,0 +1,4 @@
+Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/communication_mechanism/src/cpp_param -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/communication_mechanism/install/cpp_param
+Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/communication_mechanism/src/cpp_param -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/communication_mechanism/install/cpp_param
+Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20
+Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_param' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20

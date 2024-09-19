@@ -1,0 +1,50 @@
+[0.165s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target cpp_action_server[0m
+[0.218s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o[0m
+[0.219s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_action_server.dir/src/cpp_action_server.cpp.o[0m
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse Action_server::Goal_Callback(const GoalUUID&, std::shared_ptr<const base_interface_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:45:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.848s]    45 | rclcpp_action::GoalResponse Goal_Callback([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const Progress::Goal> goal)
+[1.848s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.848s] 
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:45:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.848s]    45 | ack(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const Progress::Goal> goal[m[K)
+[1.848s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.848s] 
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse Action_server::Cancel_Callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interface_demo::action::Progress> >)[m[K’:
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:56:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcancel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.848s]    56 | e Cancel_Callback([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> cancel[m[K)
+[1.848s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.848s] 
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Kvoid Action_server::Accepted_Callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interface_demo::action::Progress> >)[m[K’:
+[1.848s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:62:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccept[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.848s]    62 | Accepted_Callback([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> accept[m[K)
+[1.848s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.849s] 
+[2.133s] [ 75%] [32m[1mLinking CXX executable cpp_action_client[0m
+[2.372s] [ 75%] Built target cpp_action_client
+[2.560s] [100%] [32m[1mLinking CXX executable cpp_action_server[0m
+[2.788s] [100%] Built target cpp_action_server
+[2.795s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[2.815s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action
+[2.820s] -- Install configuration: ""
+[2.820s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server
+[2.821s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server" to ""
+[2.821s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client
+[2.821s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client" to ""
+[2.821s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+[2.821s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.sh
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.dsv
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.bash
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.sh
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.zsh
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.dsv
+[2.822s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.dsv
+[2.823s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+[2.823s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+[2.823s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+[2.823s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.xml
+[2.824s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action

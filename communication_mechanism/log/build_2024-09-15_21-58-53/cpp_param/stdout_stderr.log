@@ -1,0 +1,42 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param.cpp:1[m[K:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param.cpp:[m[K In constructor ‘[01m[KParam::Param()[m[K’:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param.cpp:26:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   26 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"car_name:   %s"[m[K,p1.as_string());
+      |                                    [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param.cpp:26:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   26 |     RCLCPP_INFO(this->get_logger(),"car_name:   [01;36m[K%s[m[K",p1.as_string());
+      |                                                 [01;36m[K~^[m[K
+      |                                                  [01;36m[K|[m[K
+      |                                                  [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable demo_param[0m
+[100%] Built target demo_param
+-- Install configuration: ""
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param
+-- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param" to ""
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/package_run_dependencies/cpp_param
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/parent_prefix_path/cpp_param
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.sh
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.dsv
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.sh
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.dsv
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.bash
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.sh
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.zsh
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.dsv
+-- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.dsv
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/packages/cpp_param
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig.cmake
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig-version.cmake
+-- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.xml

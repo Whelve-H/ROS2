@@ -1,0 +1,13 @@
+[0.162s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target cpp_action_client[0m
+[0.192s] [ 50%] Built target cpp_action_server
+[0.192s] [ 66%] Built target minimal_action_client
+[0.195s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o[0m
+[1.720s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_client.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[1.720s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_client.cpp:202:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Action_client[m[K’ {aka ‘[01m[Kclass Action_client[m[K’} has no member named ‘[01m[Kcancel_goal[m[K’
+[1.720s]   202 |       action_client->[01;31m[Kcancel_goal[m[K(); // 调用取消目标的函数
+[1.720s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[2.188s] gmake[2]: *** [CMakeFiles/cpp_action_client.dir/build.make:76: CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o] Error 1
+[2.188s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_action_client.dir/all] Error 2
+[2.188s] gmake: *** [Makefile:146: all] Error 2
+[2.190s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '2': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20

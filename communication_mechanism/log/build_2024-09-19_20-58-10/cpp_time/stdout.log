@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_time_time[0m
+[ 66%] Built target demo_time_rate
+[ 50%] Built target demo_time_duration
+[ 83%] [32mBuilding CXX object CMakeFiles/demo_time_time.dir/src/demo_time_time.cpp.o[0m

@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000520] (-) JobUnselected: {'identifier': 'base_interface_demo'}
+[0.000920] (-) JobUnselected: {'identifier': 'cpp_action'}
+[0.001087] (-) JobUnselected: {'identifier': 'cpp_server'}
+[0.001308] (-) JobUnselected: {'identifier': 'cpp_topic'}
+[0.001624] (cpp_param) JobQueued: {'identifier': 'cpp_param', 'dependencies': OrderedDict()}
+[0.001770] (cpp_param) JobStarted: {'identifier': 'cpp_param'}
+[0.008498] (cpp_param) JobProgress: {'identifier': 'cpp_param', 'progress': 'cmake'}
+[0.008665] (cpp_param) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ROS2/communication_mechanism/src/cpp_param', '-DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/communication_mechanism/install/cpp_param'], 'cwd': '/home/ros/ROS2/communication_mechanism/build/cpp_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2/communication_mechanism/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5a409c07-9707-4e39-ada1-d49d70cbcb9a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/87585_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/communication_mechanism/build/cpp_param'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099798] (-) TimerEvent: {}
+[0.200218] (-) TimerEvent: {}
+[0.294230] (cpp_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300318] (-) TimerEvent: {}
+[0.400598] (-) TimerEvent: {}
+[0.500942] (-) TimerEvent: {}
+[0.601248] (-) TimerEvent: {}
+[0.701587] (-) TimerEvent: {}
+[0.801976] (-) TimerEvent: {}
+[0.902346] (-) TimerEvent: {}
+[1.002705] (-) TimerEvent: {}
+[1.103059] (-) TimerEvent: {}
+[1.178793] (cpp_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.203186] (-) TimerEvent: {}
+[1.303516] (-) TimerEvent: {}
+[1.403876] (-) TimerEvent: {}
+[1.504226] (-) TimerEvent: {}
+[1.604592] (-) TimerEvent: {}
+[1.705011] (-) TimerEvent: {}
+[1.805346] (-) TimerEvent: {}
+[1.867311] (cpp_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.905472] (-) TimerEvent: {}
+[2.005780] (-) TimerEvent: {}
+[2.086208] (cpp_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.090440] (cpp_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.090989] (cpp_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.091283] (cpp_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.093910] (cpp_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.105892] (-) TimerEvent: {}
+[2.206190] (-) TimerEvent: {}
+[2.305311] (cpp_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.306438] (-) TimerEvent: {}
+[2.309601] (cpp_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.309863] (cpp_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.310109] (cpp_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.313635] (cpp_param) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.406562] (-) TimerEvent: {}
+[2.408657] (cpp_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.469429] (cpp_param) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.506683] (-) TimerEvent: {}
+[2.606999] (-) TimerEvent: {}
+[2.699974] (cpp_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.703916] (cpp_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.707173] (-) TimerEvent: {}
+[2.710041] (cpp_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.719635] (cpp_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.732004] (cpp_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.775785] (cpp_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.777235] (cpp_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.807300] (-) TimerEvent: {}
+[2.907602] (-) TimerEvent: {}
+[3.007939] (-) TimerEvent: {}
+[3.108260] (-) TimerEvent: {}
+[3.208567] (-) TimerEvent: {}
+[3.308880] (-) TimerEvent: {}
+[3.409230] (-) TimerEvent: {}
+[3.509579] (-) TimerEvent: {}
+[3.609893] (-) TimerEvent: {}
+[3.710198] (-) TimerEvent: {}
+[3.810549] (-) TimerEvent: {}
+[3.910911] (-) TimerEvent: {}
+[4.011231] (-) TimerEvent: {}
+[4.111551] (-) TimerEvent: {}
+[4.211875] (-) TimerEvent: {}
+[4.312203] (-) TimerEvent: {}
+[4.412538] (-) TimerEvent: {}
+[4.512864] (-) TimerEvent: {}
+[4.613184] (-) TimerEvent: {}
+[4.713485] (-) TimerEvent: {}
+[4.813820] (-) TimerEvent: {}
+[4.914196] (-) TimerEvent: {}
+[5.014522] (-) TimerEvent: {}
+[5.114899] (-) TimerEvent: {}
+[5.115574] (cpp_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.215020] (-) TimerEvent: {}
+[5.315324] (-) TimerEvent: {}
+[5.415672] (-) TimerEvent: {}
+[5.515971] (-) TimerEvent: {}
+[5.616289] (-) TimerEvent: {}
+[5.716580] (-) TimerEvent: {}
+[5.816876] (-) TimerEvent: {}
+[5.917170] (-) TimerEvent: {}
+[6.017467] (-) TimerEvent: {}
+[6.117842] (-) TimerEvent: {}
+[6.218209] (-) TimerEvent: {}
+[6.318635] (-) TimerEvent: {}
+[6.419013] (-) TimerEvent: {}
+[6.519330] (-) TimerEvent: {}
+[6.619645] (-) TimerEvent: {}
+[6.719966] (-) TimerEvent: {}
+[6.820398] (-) TimerEvent: {}
+[6.920740] (-) TimerEvent: {}
+[7.021054] (-) TimerEvent: {}
+[7.121404] (-) TimerEvent: {}
+[7.221905] (-) TimerEvent: {}
+[7.322339] (-) TimerEvent: {}
+[7.422650] (-) TimerEvent: {}
+[7.481893] (cpp_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.522775] (-) TimerEvent: {}
+[7.623111] (-) TimerEvent: {}
+[7.723404] (-) TimerEvent: {}
+[7.823708] (-) TimerEvent: {}
+[7.924026] (-) TimerEvent: {}
+[8.024348] (-) TimerEvent: {}
+[8.124645] (-) TimerEvent: {}
+[8.224946] (-) TimerEvent: {}
+[8.325256] (-) TimerEvent: {}
+[8.425625] (-) TimerEvent: {}
+[8.525972] (-) TimerEvent: {}
+[8.626387] (-) TimerEvent: {}
+[8.726701] (-) TimerEvent: {}
+[8.827112] (-) TimerEvent: {}
+[8.927424] (-) TimerEvent: {}
+[9.027733] (-) TimerEvent: {}
+[9.128043] (-) TimerEvent: {}
+[9.228339] (-) TimerEvent: {}
+[9.328643] (-) TimerEvent: {}
+[9.428942] (-) TimerEvent: {}
+[9.529238] (-) TimerEvent: {}
+[9.629532] (-) TimerEvent: {}
+[9.729838] (-) TimerEvent: {}
+[9.830129] (-) TimerEvent: {}
+[9.930462] (-) TimerEvent: {}
+[10.030879] (-) TimerEvent: {}
+[10.131198] (-) TimerEvent: {}
+[10.231641] (-) TimerEvent: {}
+[10.332021] (-) TimerEvent: {}
+[10.432336] (-) TimerEvent: {}
+[10.532652] (-) TimerEvent: {}
+[10.632962] (-) TimerEvent: {}
+[10.733272] (-) TimerEvent: {}
+[10.833590] (-) TimerEvent: {}
+[10.933900] (-) TimerEvent: {}
+[11.034216] (-) TimerEvent: {}
+[11.134534] (-) TimerEvent: {}
+[11.234840] (-) TimerEvent: {}
+[11.335204] (-) TimerEvent: {}
+[11.435547] (-) TimerEvent: {}
+[11.535866] (-) TimerEvent: {}
+[11.634825] (cpp_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.635994] (-) TimerEvent: {}
+[11.641855] (cpp_param) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.736129] (-) TimerEvent: {}
+[11.829696] (cpp_param) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.830054] (cpp_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.836305] (-) TimerEvent: {}
+[11.936586] (-) TimerEvent: {}
+[12.034440] (cpp_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.034831] (cpp_param) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.036689] (-) TimerEvent: {}
+[12.131399] (cpp_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.136846] (-) TimerEvent: {}
+[12.194885] (cpp_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.195105] (cpp_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ROS2/communication_mechanism/src/cpp_param/include>\n'}
+[12.195176] (cpp_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.195649] (cpp_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.196383] (cpp_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.196492] (cpp_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.196971] (cpp_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.197846] (cpp_param) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.207151] (cpp_param) StdoutLine: {'line': b'-- Generating done\n'}
+[12.209353] (cpp_param) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ROS2/communication_mechanism/build/cpp_param\n'}
+[12.217643] (cpp_param) CommandEnded: {'returncode': 0}
+[12.219290] (cpp_param) JobProgress: {'identifier': 'cpp_param', 'progress': 'build'}
+[12.219348] (cpp_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ROS2/communication_mechanism/build/cpp_param', '--', '-j20', '-l20'], 'cwd': '/home/ros/ROS2/communication_mechanism/build/cpp_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2/communication_mechanism/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5a409c07-9707-4e39-ada1-d49d70cbcb9a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/87585_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/communication_mechanism/build/cpp_param'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.237011] (-) TimerEvent: {}
+[12.243738] (cpp_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o\x1b[0m\n'}
+[12.337259] (-) TimerEvent: {}
+[12.338915] (cpp_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param.cpp:14:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: No such file or directory\n'}
+[12.339074] (cpp_param) StderrLine: {'line': b'   14 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[12.339109] (cpp_param) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.339136] (cpp_param) StderrLine: {'line': b'compilation terminated.\n'}
+[12.340939] (cpp_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo_param.dir/build.make:76: CMakeFiles/demo_param.dir/src/demo_param.cpp.o] Error 1\n'}
+[12.341273] (cpp_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo_param.dir/all] Error 2\n'}
+[12.341368] (cpp_param) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.342643] (cpp_param) CommandEnded: {'returncode': 2}
+[12.364522] (cpp_param) JobEnded: {'identifier': 'cpp_param', 'rc': 2}
+[12.375266] (-) EventReactorShutdown: {}

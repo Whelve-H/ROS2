@@ -1,0 +1,12 @@
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/uninstall.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/cpp_action_uninstall.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/cpp_action_server.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/cpp_action_client.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/minimal_action_client.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/test.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/edit_cache.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/rebuild_cache.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/list_install_components.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/install.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/install/local.dir
+/home/ros/ROS2/communication_mechanism/build/cpp_action/CMakeFiles/install/strip.dir

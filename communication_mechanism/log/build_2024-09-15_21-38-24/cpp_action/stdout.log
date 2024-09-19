@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_action_client[0m
+[ 50%] Built target cpp_action_server
+[ 66%] Built target minimal_action_client
+[ 83%] [32mBuilding CXX object CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o[0m

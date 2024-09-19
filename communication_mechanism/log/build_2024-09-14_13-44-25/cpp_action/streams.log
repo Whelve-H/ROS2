@@ -1,0 +1,47 @@
+[0.162s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': AMENT_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target cpp_action_server[0m
+[0.189s] [ 50%] Built target cpp_action_client
+[0.192s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_action_server.dir/src/cpp_action_server.cpp.o[0m
+[1.594s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.594s]                  from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:1[m[K:
+[1.594s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Kvoid Action_server::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interface_demo::action::Progress> >)[m[K’:
+[1.594s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:84:38:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.594s]    84 |       RCLCPP_INFO(this->get_logger(),[01;35m[K"当前进度为: %.2lf/%"[m[K,progress*100);
+[1.594s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.595s] [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:84:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.595s]    84 |       RCLCPP_INFO(this->get_logger(),"当前进度为: %.2lf/[01;36m[K%[m[K",progress*100);
+[1.595s]       |                                                         [01;36m[K^[m[K
+[2.305s] [100%] [32m[1mLinking CXX executable cpp_action_server[0m
+[2.550s] [100%] Built target cpp_action_server
+[2.555s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': AMENT_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[2.575s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': AMENT_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action
+[2.578s] -- Install configuration: ""
+[2.578s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server
+[2.578s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server" to ""
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.sh
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.dsv
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.bash
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.sh
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.zsh
+[2.579s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.dsv
+[2.579s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.dsv
+[2.580s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+[2.580s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+[2.580s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+[2.580s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.xml
+[2.581s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': AMENT_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action

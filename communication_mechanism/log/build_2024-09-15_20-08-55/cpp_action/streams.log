@@ -1,0 +1,54 @@
+[0.159s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[0.182s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.273s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.503s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.509s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.577s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.847s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.903s] -- Found base_interface_demo: 0.0.0 (/home/ros/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake)
+[8.938s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.982s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.982s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ROS2/communication_mechanism/src/cpp_action/include>
+[8.982s] -- Configured cppcheck exclude dirs and/or files: 
+[8.982s] -- Added test 'lint_cmake' to check CMake code style
+[8.983s] -- Added test 'uncrustify' to check C / C++ code style
+[8.983s] -- Configured uncrustify additional arguments: 
+[8.983s] -- Added test 'xmllint' to check XML markup files
+[8.985s] -- Configuring done
+[9.009s] -- Generating done
+[9.012s] -- Build files have been written to: /home/ros/ROS2/communication_mechanism/build/cpp_action
+[9.028s] [35m[1mConsolidate compiler generated dependencies of target cpp_action_client[0m
+[9.028s] [35m[1mConsolidate compiler generated dependencies of target cpp_action_server[0m
+[9.033s] [ 16%] [32mBuilding CXX object CMakeFiles/minimal_action_client.dir/src/minimal_action_client.cpp.o[0m
+[9.038s] [ 50%] Built target cpp_action_server
+[9.040s] [ 83%] Built target cpp_action_client
+[11.531s] [100%] [32m[1mLinking CXX executable minimal_action_client[0m
+[11.771s] [100%] Built target minimal_action_client
+[11.779s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_action -- -j20 -l20
+[11.800s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_action': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action
+[11.804s] -- Install configuration: ""
+[11.804s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server
+[11.804s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client
+[11.804s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/minimal_action_client
+[11.805s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/minimal_action_client" to ""
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+[11.805s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.sh
+[11.805s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.dsv
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.bash
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.sh
+[11.805s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.zsh
+[11.806s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.dsv
+[11.806s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.dsv
+[11.806s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+[11.806s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+[11.806s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+[11.806s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.xml
+[11.807s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_action' returned '0': CMAKE_PREFIX_PATH=/home/ros/ROS2/communication_mechanism/install/base_interface_demo:/home/ros/ROS2/communication_mechanism/install/cpp_topic:/home/ros/ROS2/communication_mechanism/install/cpp_server:/home/ros/ROS2/communication_mechanism/install/cpp_action:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_action

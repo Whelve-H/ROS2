@@ -1,0 +1,98 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_time_time[0m
+[ 66%] Built target demo_time_rate
+[ 50%] Built target demo_time_duration
+[ 83%] [32mBuilding CXX object CMakeFiles/demo_time_time.dir/src/demo_time_time.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:[m[K In constructor ‘[01m[KTime::Time()[m[K’:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:13:89:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krcl_time_point_value_t rclcpp::Time::nanoseconds() const[m[K’
+   13 |     RCLCPP_INFO(this->get_logger(), "当前时间: s=%.2f,ns=%ld", time_1.seconds(), [01;31m[Ktime_1.nanoseconds[m[K);
+      |                                                                                  [01;31m[K~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:184:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  184 |   [01;36m[Knanoseconds[m[K() const;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:14:89:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krcl_time_point_value_t rclcpp::Time::nanoseconds() const[m[K’
+   14 |     RCLCPP_INFO(this->get_logger(), "当前时间: s=%.2f,ns=%ld", time_2.seconds(), [01;31m[Ktime_2.nanoseconds[m[K);
+      |                                                                                  [01;31m[K~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:184:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  184 |   [01;36m[Knanoseconds[m[K() const;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:15:95:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krcl_time_point_value_t rclcpp::Time::nanoseconds() const[m[K’
+   15 |     RCLCPP_INFO(this->get_logger(), "当前时间: s=%.2f,ns=%ld", right_now.seconds(), [01;31m[Kright_now.nanoseconds[m[K);
+      |                                                                                     [01;31m[K~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ros/ROS2/communication_mechanism/src/cpp_time/src/demo_time_time.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:184:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  184 |   [01;36m[Knanoseconds[m[K() const;
+      |   [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo_time_time.dir/build.make:76: CMakeFiles/demo_time_time.dir/src/demo_time_time.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo_time_time.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

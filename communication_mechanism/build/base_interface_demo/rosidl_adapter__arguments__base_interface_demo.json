@@ -1,0 +1,8 @@
+{
+  "package_name": "base_interface_demo",
+  "non_idl_tuples": [
+    "/home/ros/ROS2/communication_mechanism/src/base_interface_demo:msg/Student.msg",
+    "/home/ros/ROS2/communication_mechanism/src/base_interface_demo:srv/Sum.srv",
+    "/home/ros/ROS2/communication_mechanism/src/base_interface_demo:action/Progress.action"
+  ]
+}

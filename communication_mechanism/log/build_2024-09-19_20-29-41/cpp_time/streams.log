@@ -1,0 +1,68 @@
+[0.013s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/communication_mechanism/src/cpp_time -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/communication_mechanism/install/cpp_time
+[0.328s] -- The C compiler identification is GNU 11.4.0
+[1.195s] -- The CXX compiler identification is GNU 11.4.0
+[1.809s] -- Detecting C compiler ABI info
+[2.021s] -- Detecting C compiler ABI info - done
+[2.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.026s] -- Detecting C compile features
+[2.027s] -- Detecting C compile features - done
+[2.029s] -- Detecting CXX compiler ABI info
+[2.243s] -- Detecting CXX compiler ABI info - done
+[2.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.247s] -- Detecting CXX compile features
+[2.247s] -- Detecting CXX compile features - done
+[2.256s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.359s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.443s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.704s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.709s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.721s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.820s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.823s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.109s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.554s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.953s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.965s] -- Looking for pthread.h
+[12.133s] -- Looking for pthread.h - found
+[12.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.330s] -- Found Threads: TRUE  
+[12.461s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.526s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ROS2/communication_mechanism/src/cpp_time/include>
+[12.526s] -- Configured cppcheck exclude dirs and/or files: 
+[12.527s] -- Added test 'lint_cmake' to check CMake code style
+[12.528s] -- Added test 'uncrustify' to check C / C++ code style
+[12.528s] -- Configured uncrustify additional arguments: 
+[12.529s] -- Added test 'xmllint' to check XML markup files
+[12.531s] -- Configuring done
+[12.542s] -- Generating done
+[12.543s] -- Build files have been written to: /home/ros/ROS2/communication_mechanism/build/cpp_time
+[12.551s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/communication_mechanism/src/cpp_time -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/communication_mechanism/install/cpp_time
+[12.553s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[12.582s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_time.dir/src/demo_time.cpp.o[0m
+[14.440s] [100%] [32m[1mLinking CXX executable demo_time[0m
+[14.656s] [100%] Built target demo_time
+[14.662s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[14.679s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_time
+[14.683s] -- Install configuration: ""
+[14.684s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time
+[14.685s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time" to ""
+[14.686s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/package_run_dependencies/cpp_time
+[14.686s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/parent_prefix_path/cpp_time
+[14.686s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.sh
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.dsv
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.sh
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.dsv
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.bash
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.sh
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.zsh
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.dsv
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.dsv
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/packages/cpp_time
+[14.687s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig.cmake
+[14.688s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig-version.cmake
+[14.688s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.xml
+[14.689s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_time

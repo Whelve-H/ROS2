@@ -1,0 +1,17 @@
+/home/ros/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_server
+/home/ros/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_client
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/package_run_dependencies/cpp_server
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/parent_prefix_path/cpp_server
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/ament_prefix_path.sh
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/ament_prefix_path.dsv
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/path.sh
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/path.dsv
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.bash
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.sh
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.zsh
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.dsv
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/package.dsv
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/packages/cpp_server
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig.cmake
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig-version.cmake
+/home/ros/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/package.xml

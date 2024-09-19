@@ -1,0 +1,19 @@
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse Action_server::Goal_Callback(const GoalUUID&, std::shared_ptr<const base_interface_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:45:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 | rclcpp_action::GoalResponse Goal_Callback([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const Progress::Goal> goal)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:45:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 | ack(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const Progress::Goal> goal[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse Action_server::Cancel_Callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interface_demo::action::Progress> >)[m[K’:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:56:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcancel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | e Cancel_Callback([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> cancel[m[K)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:[m[K In member function ‘[01m[Kvoid Action_server::Accepted_Callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interface_demo::action::Progress> >)[m[K’:
+[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_server.cpp:62:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccept[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 | Accepted_Callback([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> accept[m[K)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
