@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000566] (-) JobUnselected: {'identifier': 'demo_topic'}
+[0.000633] (exercise) JobQueued: {'identifier': 'exercise', 'dependencies': OrderedDict()}
+[0.000661] (exercise) JobStarted: {'identifier': 'exercise'}
+[0.004847] (exercise) JobProgress: {'identifier': 'exercise', 'progress': 'cmake'}
+[0.005794] (exercise) JobProgress: {'identifier': 'exercise', 'progress': 'build'}
+[0.005850] (exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ROS2/turtle/build/exercise', '--', '-j20', '-l20'], 'cwd': '/home/ros/ROS2/turtle/build/exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-86b0d1fb-9c5b-4b5b-9f61-af1e7364799f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ROS2/turtle/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/405_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros/ROS2/turtle/install/exercise:/home/ros/ROS2/turtle/install/demo_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/turtle/build/exercise'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ros/ROS2/turtle/install/exercise:/home/ros/ROS2/turtle/install/demo_topic:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.030847] (exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exe_action\x1b[0m\n'}
+[0.037220] (exercise) StdoutLine: {'line': b'[ 50%] Built target exe_pub_sub\n'}
+[0.039833] (exercise) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/exe_action.dir/src/exe_action.cpp.o\x1b[0m\n'}
+[0.099776] (-) TimerEvent: {}
+[0.200133] (-) TimerEvent: {}
+[0.300504] (-) TimerEvent: {}
+[0.400926] (-) TimerEvent: {}
+[0.501275] (-) TimerEvent: {}
+[0.601732] (-) TimerEvent: {}
+[0.702083] (-) TimerEvent: {}
+[0.802427] (-) TimerEvent: {}
+[0.902763] (-) TimerEvent: {}
+[1.003266] (-) TimerEvent: {}
+[1.103607] (-) TimerEvent: {}
+[1.203979] (-) TimerEvent: {}
+[1.304446] (-) TimerEvent: {}
+[1.404929] (-) TimerEvent: {}
+[1.505251] (-) TimerEvent: {}
+[1.605625] (-) TimerEvent: {}
+[1.705935] (-) TimerEvent: {}
+[1.806373] (-) TimerEvent: {}
+[1.906684] (-) TimerEvent: {}
+[2.007146] (-) TimerEvent: {}
+[2.107521] (-) TimerEvent: {}
+[2.207829] (-) TimerEvent: {}
+[2.308277] (-) TimerEvent: {}
+[2.408954] (-) TimerEvent: {}
+[2.509420] (-) TimerEvent: {}
+[2.609908] (-) TimerEvent: {}
+[2.710276] (-) TimerEvent: {}
+[2.810636] (-) TimerEvent: {}
+[2.910980] (-) TimerEvent: {}
+[3.011330] (-) TimerEvent: {}
+[3.111931] (-) TimerEvent: {}
+[3.212270] (-) TimerEvent: {}
+[3.312687] (-) TimerEvent: {}
+[3.412996] (-) TimerEvent: {}
+[3.513343] (-) TimerEvent: {}
+[3.613737] (-) TimerEvent: {}
+[3.714058] (-) TimerEvent: {}
+[3.814491] (-) TimerEvent: {}
+[3.914975] (-) TimerEvent: {}
+[4.015343] (-) TimerEvent: {}
+[4.115748] (-) TimerEvent: {}
+[4.216059] (-) TimerEvent: {}
+[4.316400] (-) TimerEvent: {}
+[4.416775] (-) TimerEvent: {}
+[4.517171] (-) TimerEvent: {}
+[4.617578] (-) TimerEvent: {}
+[4.718042] (-) TimerEvent: {}
+[4.818425] (-) TimerEvent: {}
+[4.918878] (-) TimerEvent: {}
+[5.019228] (-) TimerEvent: {}
+[5.119724] (-) TimerEvent: {}
+[5.220069] (-) TimerEvent: {}
+[5.313561] (exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exe_action\x1b[0m\n'}
+[5.320182] (-) TimerEvent: {}
+[5.420452] (-) TimerEvent: {}
+[5.520770] (-) TimerEvent: {}
+[5.621055] (-) TimerEvent: {}
+[5.711224] (exercise) StdoutLine: {'line': b'[100%] Built target exe_action\n'}
+[5.716941] (exercise) CommandEnded: {'returncode': 0}
+[5.721181] (-) TimerEvent: {}
+[5.731309] (exercise) JobProgress: {'identifier': 'exercise', 'progress': 'install'}
+[5.735462] (exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ROS2/turtle/build/exercise'], 'cwd': '/home/ros/ROS2/turtle/build/exercise', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-86b0d1fb-9c5b-4b5b-9f61-af1e7364799f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ros/ROS2/turtle/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/405_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ros/ROS2/turtle/install/exercise:/home/ros/ROS2/turtle/install/demo_topic:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/turtle/build/exercise'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ros/ROS2/turtle/install/exercise:/home/ros/ROS2/turtle/install/demo_topic:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[5.739488] (exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.739612] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/lib/exercise/exe_pub_sub\n'}
+[5.739718] (exercise) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/turtle/install/exercise/lib/exercise/exe_action\n'}
+[5.742497] (exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/turtle/install/exercise/lib/exercise/exe_action" to ""\n'}
+[5.742621] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/launch\n'}
+[5.742714] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/launch/exe_pub_sub.launch.py\n'}
+[5.742876] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/package_run_dependencies/exercise\n'}
+[5.742959] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/parent_prefix_path/exercise\n'}
+[5.743046] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/ament_prefix_path.sh\n'}
+[5.743084] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/ament_prefix_path.dsv\n'}
+[5.743113] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/path.sh\n'}
+[5.743140] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/path.dsv\n'}
+[5.743167] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.bash\n'}
+[5.743194] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.sh\n'}
+[5.743272] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.zsh\n'}
+[5.743311] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.dsv\n'}
+[5.743340] (exercise) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/turtle/install/exercise/share/exercise/package.dsv\n'}
+[5.743368] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/packages/exercise\n'}
+[5.743395] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/cmake/exerciseConfig.cmake\n'}
+[5.743467] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/cmake/exerciseConfig-version.cmake\n'}
+[5.743554] (exercise) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/package.xml\n'}
+[5.744343] (exercise) CommandEnded: {'returncode': 0}
+[5.769876] (exercise) JobEnded: {'identifier': 'exercise', 'rc': 0}
+[5.770498] (-) EventReactorShutdown: {}

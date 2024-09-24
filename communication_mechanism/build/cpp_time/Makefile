@@ -236,6 +236,19 @@ demo_time_duration/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_duration.dir/build.make CMakeFiles/demo_time_duration.dir/build
 .PHONY : demo_time_duration/fast
 
+#=============================================================================
+# Target rules for targets named demo_time_operation
+
+# Build rule for target.
+demo_time_operation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo_time_operation
+.PHONY : demo_time_operation
+
+# fast build rule for target.
+demo_time_operation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_operation.dir/build.make CMakeFiles/demo_time_operation.dir/build
+.PHONY : demo_time_operation/fast
+
 src/demo_time_duration.o: src/demo_time_duration.cpp.o
 .PHONY : src/demo_time_duration.o
 
@@ -259,6 +272,30 @@ src/demo_time_duration.s: src/demo_time_duration.cpp.s
 src/demo_time_duration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_duration.dir/build.make CMakeFiles/demo_time_duration.dir/src/demo_time_duration.cpp.s
 .PHONY : src/demo_time_duration.cpp.s
+
+src/demo_time_operation.o: src/demo_time_operation.cpp.o
+.PHONY : src/demo_time_operation.o
+
+# target to build an object file
+src/demo_time_operation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_operation.dir/build.make CMakeFiles/demo_time_operation.dir/src/demo_time_operation.cpp.o
+.PHONY : src/demo_time_operation.cpp.o
+
+src/demo_time_operation.i: src/demo_time_operation.cpp.i
+.PHONY : src/demo_time_operation.i
+
+# target to preprocess a source file
+src/demo_time_operation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_operation.dir/build.make CMakeFiles/demo_time_operation.dir/src/demo_time_operation.cpp.i
+.PHONY : src/demo_time_operation.cpp.i
+
+src/demo_time_operation.s: src/demo_time_operation.cpp.s
+.PHONY : src/demo_time_operation.s
+
+# target to generate assembly for a file
+src/demo_time_operation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_time_operation.dir/build.make CMakeFiles/demo_time_operation.dir/src/demo_time_operation.cpp.s
+.PHONY : src/demo_time_operation.cpp.s
 
 src/demo_time_rate.o: src/demo_time_rate.cpp.o
 .PHONY : src/demo_time_rate.o
@@ -324,11 +361,15 @@ help:
 	@echo "... cpp_time_uninstall"
 	@echo "... uninstall"
 	@echo "... demo_time_duration"
+	@echo "... demo_time_operation"
 	@echo "... demo_time_rate"
 	@echo "... demo_time_time"
 	@echo "... src/demo_time_duration.o"
 	@echo "... src/demo_time_duration.i"
 	@echo "... src/demo_time_duration.s"
+	@echo "... src/demo_time_operation.o"
+	@echo "... src/demo_time_operation.i"
+	@echo "... src/demo_time_operation.s"
 	@echo "... src/demo_time_rate.o"
 	@echo "... src/demo_time_rate.i"
 	@echo "... src/demo_time_rate.s"

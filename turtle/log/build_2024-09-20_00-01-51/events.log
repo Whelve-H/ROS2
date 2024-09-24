@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000725] (demo_topic) JobQueued: {'identifier': 'demo_topic', 'dependencies': OrderedDict()}
+[0.001022] (demo_topic) JobStarted: {'identifier': 'demo_topic'}
+[0.006783] (demo_topic) JobProgress: {'identifier': 'demo_topic', 'progress': 'cmake'}
+[0.008392] (demo_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ROS2/turtle/src/demo_topic', '-DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/turtle/install/demo_topic'], 'cwd': '/home/ros/ROS2/turtle/build/demo_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2/turtle/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bdb07bbb-c7c2-43d2-b831-0dee257f47af.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/436_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/turtle/build/demo_topic'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099561] (-) TimerEvent: {}
+[0.199895] (-) TimerEvent: {}
+[0.252682] (demo_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300003] (-) TimerEvent: {}
+[0.400312] (-) TimerEvent: {}
+[0.500637] (-) TimerEvent: {}
+[0.600970] (-) TimerEvent: {}
+[0.701292] (-) TimerEvent: {}
+[0.801597] (-) TimerEvent: {}
+[0.901919] (-) TimerEvent: {}
+[1.002275] (-) TimerEvent: {}
+[1.102627] (-) TimerEvent: {}
+[1.117652] (demo_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.202762] (-) TimerEvent: {}
+[1.303088] (-) TimerEvent: {}
+[1.403413] (-) TimerEvent: {}
+[1.503740] (-) TimerEvent: {}
+[1.604066] (-) TimerEvent: {}
+[1.704587] (-) TimerEvent: {}
+[1.754132] (demo_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.804722] (-) TimerEvent: {}
+[1.905044] (-) TimerEvent: {}
+[1.965927] (demo_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.970150] (demo_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.972273] (demo_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.972653] (demo_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.975538] (demo_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.005174] (-) TimerEvent: {}
+[2.105643] (-) TimerEvent: {}
+[2.205985] (-) TimerEvent: {}
+[2.211992] (demo_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.217993] (demo_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.218263] (demo_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.218530] (demo_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.230223] (demo_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.306143] (-) TimerEvent: {}
+[2.332965] (demo_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.394219] (demo_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.406260] (-) TimerEvent: {}
+[2.506560] (-) TimerEvent: {}
+[2.606886] (-) TimerEvent: {}
+[2.658235] (demo_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.661053] (demo_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.667175] (demo_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.677300] (demo_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.690525] (demo_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.707131] (-) TimerEvent: {}
+[2.803464] (demo_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.805132] (demo_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.807235] (-) TimerEvent: {}
+[2.907564] (-) TimerEvent: {}
+[3.007874] (-) TimerEvent: {}
+[3.108194] (-) TimerEvent: {}
+[3.208526] (-) TimerEvent: {}
+[3.308854] (-) TimerEvent: {}
+[3.409179] (-) TimerEvent: {}
+[3.509497] (-) TimerEvent: {}
+[3.609830] (-) TimerEvent: {}
+[3.710141] (-) TimerEvent: {}
+[3.810604] (-) TimerEvent: {}
+[3.910995] (-) TimerEvent: {}
+[4.011335] (-) TimerEvent: {}
+[4.111657] (-) TimerEvent: {}
+[4.212255] (-) TimerEvent: {}
+[4.312565] (-) TimerEvent: {}
+[4.412884] (-) TimerEvent: {}
+[4.513197] (-) TimerEvent: {}
+[4.613513] (-) TimerEvent: {}
+[4.713827] (-) TimerEvent: {}
+[4.814134] (-) TimerEvent: {}
+[4.821770] (demo_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.914249] (-) TimerEvent: {}
+[5.014554] (-) TimerEvent: {}
+[5.114993] (-) TimerEvent: {}
+[5.215832] (-) TimerEvent: {}
+[5.316296] (-) TimerEvent: {}
+[5.416622] (-) TimerEvent: {}
+[5.516980] (-) TimerEvent: {}
+[5.617308] (-) TimerEvent: {}
+[5.717613] (-) TimerEvent: {}
+[5.817914] (-) TimerEvent: {}
+[5.918285] (-) TimerEvent: {}
+[6.018704] (-) TimerEvent: {}
+[6.119220] (-) TimerEvent: {}
+[6.219559] (-) TimerEvent: {}
+[6.319889] (-) TimerEvent: {}
+[6.420222] (-) TimerEvent: {}
+[6.520565] (-) TimerEvent: {}
+[6.620875] (-) TimerEvent: {}
+[6.721232] (-) TimerEvent: {}
+[6.821588] (-) TimerEvent: {}
+[6.898977] (demo_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.921703] (-) TimerEvent: {}
+[7.022006] (-) TimerEvent: {}
+[7.122322] (-) TimerEvent: {}
+[7.222643] (-) TimerEvent: {}
+[7.322965] (-) TimerEvent: {}
+[7.423295] (-) TimerEvent: {}
+[7.523614] (-) TimerEvent: {}
+[7.624200] (-) TimerEvent: {}
+[7.724555] (-) TimerEvent: {}
+[7.825433] (-) TimerEvent: {}
+[7.925818] (-) TimerEvent: {}
+[8.026628] (-) TimerEvent: {}
+[8.127018] (-) TimerEvent: {}
+[8.227662] (-) TimerEvent: {}
+[8.327999] (-) TimerEvent: {}
+[8.428364] (-) TimerEvent: {}
+[8.529178] (-) TimerEvent: {}
+[8.629652] (-) TimerEvent: {}
+[8.730006] (-) TimerEvent: {}
+[8.830314] (-) TimerEvent: {}
+[8.930676] (-) TimerEvent: {}
+[9.030991] (-) TimerEvent: {}
+[9.131292] (-) TimerEvent: {}
+[9.231599] (-) TimerEvent: {}
+[9.332028] (-) TimerEvent: {}
+[9.432342] (-) TimerEvent: {}
+[9.532707] (-) TimerEvent: {}
+[9.633071] (-) TimerEvent: {}
+[9.733385] (-) TimerEvent: {}
+[9.833712] (-) TimerEvent: {}
+[9.934027] (-) TimerEvent: {}
+[10.034500] (-) TimerEvent: {}
+[10.134813] (-) TimerEvent: {}
+[10.235155] (-) TimerEvent: {}
+[10.335469] (-) TimerEvent: {}
+[10.435795] (-) TimerEvent: {}
+[10.536155] (-) TimerEvent: {}
+[10.636518] (-) TimerEvent: {}
+[10.655341] (demo_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.672054] (demo_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.736632] (-) TimerEvent: {}
+[10.832471] (demo_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.832618] (demo_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.836775] (-) TimerEvent: {}
+[10.937044] (-) TimerEvent: {}
+[11.027884] (demo_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.028044] (demo_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.037271] (-) TimerEvent: {}
+[11.135747] (demo_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[11.137580] (-) TimerEvent: {}
+[11.238166] (-) TimerEvent: {}
+[11.281349] (demo_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.313629] (demo_topic) StderrLine: {'line': b"Error parsing '/home/ros/ROS2/turtle/src/demo_topic/package.xml':\n"}
+[11.338337] (-) TimerEvent: {}
+[11.349091] (demo_topic) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[11.349256] (demo_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[11.349293] (demo_topic) StderrLine: {'line': b'    main()\n'}
+[11.349325] (demo_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[11.349355] (demo_topic) StderrLine: {'line': b'    raise e\n'}
+[11.349384] (demo_topic) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[11.349412] (demo_topic) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[11.349441] (demo_topic) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[11.350364] (demo_topic) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[11.350486] (demo_topic) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[11.350524] (demo_topic) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[11.350555] (demo_topic) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ros/ROS2/turtle/src/demo_topic/package.xml':\n"}
+[11.350587] (demo_topic) StderrLine: {'line': b'Invalid email "user.email=h3104894518@foxmail.com" for person "ros"\n'}
+[11.361778] (demo_topic) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[11.361967] (demo_topic) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[11.362070] (demo_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[11.362173] (demo_topic) StderrLine: {'line': b'  /home/ros/ROS2/turtle/src/demo_topic/package.xml\n'}
+[11.362270] (demo_topic) StderrLine: {'line': b'  /home/ros/ROS2/turtle/build/demo_topic/ament_cmake_core/package.cmake)\n'}
+[11.362366] (demo_topic) StderrLine: {'line': b'  returned error code 1\n'}
+[11.362462] (demo_topic) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.362557] (demo_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[11.362656] (demo_topic) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[11.362718] (demo_topic) StderrLine: {'line': b'  CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)\n'}
+[11.362754] (demo_topic) StderrLine: {'line': b'\n'}
+[11.362784] (demo_topic) StderrLine: {'line': b'\x1b[0m\n'}
+[11.362890] (demo_topic) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.362948] (demo_topic) StdoutLine: {'line': b'See also "/home/ros/ROS2/turtle/build/demo_topic/CMakeFiles/CMakeOutput.log".\n'}
+[11.369968] (demo_topic) CommandEnded: {'returncode': 1}
+[11.370768] (demo_topic) JobEnded: {'identifier': 'demo_topic', 'rc': 1}
+[11.381519] (-) EventReactorShutdown: {}

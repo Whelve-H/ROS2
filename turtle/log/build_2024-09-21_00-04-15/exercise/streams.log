@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
+[0.035s] [100%] Built target exe_pub_sub
+[0.041s] Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
+[0.056s] Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/turtle/build/exercise
+[0.059s] -- Install configuration: ""
+[0.059s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/lib/exercise/exe_pub_sub
+[0.059s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/launch
+[0.060s] -- Installing: /home/ros/ROS2/turtle/install/exercise/share/exercise/launch/exe_pub_sub.launch.py
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/package_run_dependencies/exercise
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/parent_prefix_path/exercise
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/ament_prefix_path.sh
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/ament_prefix_path.dsv
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/path.sh
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/environment/path.dsv
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.bash
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.sh
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.zsh
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/local_setup.dsv
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/package.dsv
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/ament_index/resource_index/packages/exercise
+[0.060s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/cmake/exerciseConfig.cmake
+[0.061s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/cmake/exerciseConfig-version.cmake
+[0.061s] -- Up-to-date: /home/ros/ROS2/turtle/install/exercise/share/exercise/package.xml
+[0.061s] Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/turtle/build/exercise

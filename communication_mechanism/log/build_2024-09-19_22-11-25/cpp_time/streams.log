@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[0.037s] [ 75%] Built target demo_time_rate
+[0.037s] [ 75%] Built target demo_time_duration
+[0.037s] [ 75%] Built target demo_time_time
+[0.037s] [ 87%] [32mBuilding CXX object CMakeFiles/demo_time_operation.dir/src/demo_time_operation.cpp.o[0m
+[1.666s] [100%] [32m[1mLinking CXX executable demo_time_operation[0m
+[1.864s] [100%] Built target demo_time_operation
+[1.870s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[1.893s] Invoking command in '/home/ros/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_time
+[1.896s] -- Install configuration: ""
+[1.896s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_rate
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_time
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_duration
+[1.897s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_operation
+[1.897s] -- Set runtime path of "/home/ros/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_operation" to ""
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/package_run_dependencies/cpp_time
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/parent_prefix_path/cpp_time
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.sh
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.dsv
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.sh
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.dsv
+[1.897s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.bash
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.sh
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.zsh
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.dsv
+[1.898s] -- Installing: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.dsv
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/packages/cpp_time
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig.cmake
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig-version.cmake
+[1.898s] -- Up-to-date: /home/ros/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.xml
+[1.899s] Invoked command in '/home/ros/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/communication_mechanism/build/cpp_time

@@ -39,10 +39,10 @@ public:
 private:
   rclcpp::Client<Sum>::SharedPtr client;
 };
-bool is_num(const char* str)
-{
+// bool is_num(const char* str)
+// {
 
-}
+// }
 int main(int argc, char *argv[])
 {
   if (argc != 3 )

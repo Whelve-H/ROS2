@@ -12,6 +12,7 @@ find_package(rclcpp REQUIRED)
 add_executable(demo_time_rate src/demo_time_rate.cpp)
 add_executable(demo_time_time src/demo_time_time.cpp)
 add_executable(demo_time_duration src/demo_time_duration.cpp)
+add_executable(demo_time_operation src/demo_time_operation.cpp)
 
 target_include_directories(demo_time_rate PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -20,6 +21,9 @@ target_include_directories(demo_time_time PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_include_directories(demo_time_duration PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_include_directories(demo_time_operation PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
@@ -39,12 +43,20 @@ ament_target_dependencies(
   demo_time_duration
   "rclcpp"
 )
+target_compile_features(demo_time_operation PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  demo_time_operation
+  "rclcpp"
+)
 install(TARGETS demo_time_rate
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo_time_time
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS demo_time_duration
   DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo_time_operation
+  DESTINATION lib/${PROJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

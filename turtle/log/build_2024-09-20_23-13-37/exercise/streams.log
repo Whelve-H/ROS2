@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
+[2.036s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.036s]   By not providing "Findbase_interface_demo.cmake" in CMAKE_MODULE_PATH this
+[2.036s]   project has asked CMake to find a package configuration file provided by
+[2.036s]   "base_interface_demo", but CMake did not find one.
+[2.036s] 
+[2.036s]   Could not find a package configuration file provided by
+[2.036s]   "base_interface_demo" with any of the following names:
+[2.036s] 
+[2.036s]     base_interface_demoConfig.cmake
+[2.036s]     base_interface_demo-config.cmake
+[2.036s] 
+[2.036s]   Add the installation prefix of "base_interface_demo" to CMAKE_PREFIX_PATH
+[2.036s]   or set "base_interface_demo_DIR" to a directory containing one of the above
+[2.036s]   files.  If "base_interface_demo" provides a separate development package or
+[2.036s]   SDK, be sure it has been installed.
+[2.036s] 
+[2.036s] [0m
+[2.036s] -- Configuring incomplete, errors occurred!
+[2.037s] See also "/home/ros/ROS2/turtle/build/exercise/CMakeFiles/CMakeOutput.log".
+[2.037s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.039s] Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
