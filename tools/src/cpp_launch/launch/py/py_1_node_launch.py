@@ -48,7 +48,8 @@ def generate_launch_description():
         # parameters=[{"background_r":255,"background_g":0,"background_b":0}]
         # ros_arguments=["--remap","__ns:=/turtle_2"]
         # 方式二： 读取yaml文件  相对路径
-        parameters=[os.path.join(get_package_share_directory("cpp_launch"),"config","demo_1.launch.yaml")]
+        parameters=[os.path.join(get_package_share_directory("cpp_launch"),"config","turtlesim.yaml")]
+        # parameters=["/home/ros/ROS2/tools/src/cpp_launch/config/turtlesim.yaml"]
     )  
     # t2 = Node(package= "turtlesim",executable="turtlesim_node",name="t2")
     return LaunchDescription([t1,t2])
