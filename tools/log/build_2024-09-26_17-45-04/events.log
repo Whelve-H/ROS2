@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000721] (-) JobUnselected: {'identifier': 'cpp_launch'}
+[0.000778] (cpp_rosbag) JobQueued: {'identifier': 'cpp_rosbag', 'dependencies': OrderedDict()}
+[0.001485] (cpp_rosbag) JobStarted: {'identifier': 'cpp_rosbag'}
+[0.009823] (cpp_rosbag) JobProgress: {'identifier': 'cpp_rosbag', 'progress': 'cmake'}
+[0.010345] (cpp_rosbag) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ROS2/tools/src/cpp_rosbag', '-DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/tools/install/cpp_rosbag'], 'cwd': '/home/ros/ROS2/tools/build/cpp_rosbag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d9a8bc5-98d5-44ac-bbec-945e7adc5adc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/4639_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/tools/build/cpp_rosbag'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100086] (-) TimerEvent: {}
+[0.200455] (-) TimerEvent: {}
+[0.300928] (-) TimerEvent: {}
+[0.313498] (cpp_rosbag) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401053] (-) TimerEvent: {}
+[0.501376] (-) TimerEvent: {}
+[0.601811] (-) TimerEvent: {}
+[0.702142] (-) TimerEvent: {}
+[0.802576] (-) TimerEvent: {}
+[0.902911] (-) TimerEvent: {}
+[1.003271] (-) TimerEvent: {}
+[1.103654] (-) TimerEvent: {}
+[1.204075] (-) TimerEvent: {}
+[1.283843] (cpp_rosbag) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.304198] (-) TimerEvent: {}
+[1.404511] (-) TimerEvent: {}
+[1.504838] (-) TimerEvent: {}
+[1.605156] (-) TimerEvent: {}
+[1.705488] (-) TimerEvent: {}
+[1.805813] (-) TimerEvent: {}
+[1.906137] (-) TimerEvent: {}
+[1.978020] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.006259] (-) TimerEvent: {}
+[2.106592] (-) TimerEvent: {}
+[2.204986] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.206684] (-) TimerEvent: {}
+[2.209261] (cpp_rosbag) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.210123] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.211087] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.214180] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.306898] (-) TimerEvent: {}
+[2.407260] (-) TimerEvent: {}
+[2.422046] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.426375] (cpp_rosbag) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.426611] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.426831] (cpp_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.437634] (cpp_rosbag) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.507387] (-) TimerEvent: {}
+[2.535729] (cpp_rosbag) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.607617] (-) TimerEvent: {}
+[2.611862] (cpp_rosbag) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.707787] (-) TimerEvent: {}
+[2.808111] (-) TimerEvent: {}
+[2.860526] (cpp_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.866330] (cpp_rosbag) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.876862] (cpp_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.892650] (cpp_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.908245] (-) TimerEvent: {}
+[2.909719] (cpp_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.968977] (cpp_rosbag) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.972246] (cpp_rosbag) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.008405] (-) TimerEvent: {}
+[3.108717] (-) TimerEvent: {}
+[3.209046] (-) TimerEvent: {}
+[3.309421] (-) TimerEvent: {}
+[3.409752] (-) TimerEvent: {}
+[3.510117] (-) TimerEvent: {}
+[3.610555] (-) TimerEvent: {}
+[3.711040] (-) TimerEvent: {}
+[3.811362] (-) TimerEvent: {}
+[3.911697] (-) TimerEvent: {}
+[4.012042] (-) TimerEvent: {}
+[4.112380] (-) TimerEvent: {}
+[4.212697] (-) TimerEvent: {}
+[4.313006] (-) TimerEvent: {}
+[4.413326] (-) TimerEvent: {}
+[4.513644] (-) TimerEvent: {}
+[4.613961] (-) TimerEvent: {}
+[4.714280] (-) TimerEvent: {}
+[4.814610] (-) TimerEvent: {}
+[4.914940] (-) TimerEvent: {}
+[5.015274] (-) TimerEvent: {}
+[5.115627] (-) TimerEvent: {}
+[5.215995] (-) TimerEvent: {}
+[5.316448] (-) TimerEvent: {}
+[5.405785] (cpp_rosbag) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.416577] (-) TimerEvent: {}
+[5.516901] (-) TimerEvent: {}
+[5.617265] (-) TimerEvent: {}
+[5.717699] (-) TimerEvent: {}
+[5.818058] (-) TimerEvent: {}
+[5.918439] (-) TimerEvent: {}
+[6.018783] (-) TimerEvent: {}
+[6.119119] (-) TimerEvent: {}
+[6.219453] (-) TimerEvent: {}
+[6.319762] (-) TimerEvent: {}
+[6.420089] (-) TimerEvent: {}
+[6.520422] (-) TimerEvent: {}
+[6.620740] (-) TimerEvent: {}
+[6.721050] (-) TimerEvent: {}
+[6.821469] (-) TimerEvent: {}
+[6.921828] (-) TimerEvent: {}
+[7.022149] (-) TimerEvent: {}
+[7.122511] (-) TimerEvent: {}
+[7.222840] (-) TimerEvent: {}
+[7.323162] (-) TimerEvent: {}
+[7.423528] (-) TimerEvent: {}
+[7.523843] (-) TimerEvent: {}
+[7.624159] (-) TimerEvent: {}
+[7.724515] (-) TimerEvent: {}
+[7.824866] (-) TimerEvent: {}
+[7.925190] (-) TimerEvent: {}
+[8.025515] (-) TimerEvent: {}
+[8.125852] (-) TimerEvent: {}
+[8.137481] (cpp_rosbag) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.225969] (-) TimerEvent: {}
+[8.326324] (-) TimerEvent: {}
+[8.426796] (-) TimerEvent: {}
+[8.527130] (-) TimerEvent: {}
+[8.627454] (-) TimerEvent: {}
+[8.727830] (-) TimerEvent: {}
+[8.828174] (-) TimerEvent: {}
+[8.928505] (-) TimerEvent: {}
+[9.028838] (-) TimerEvent: {}
+[9.129173] (-) TimerEvent: {}
+[9.229495] (-) TimerEvent: {}
+[9.329817] (-) TimerEvent: {}
+[9.430147] (-) TimerEvent: {}
+[9.530498] (-) TimerEvent: {}
+[9.630844] (-) TimerEvent: {}
+[9.731175] (-) TimerEvent: {}
+[9.831520] (-) TimerEvent: {}
+[9.931841] (-) TimerEvent: {}
+[10.032174] (-) TimerEvent: {}
+[10.132517] (-) TimerEvent: {}
+[10.232894] (-) TimerEvent: {}
+[10.333260] (-) TimerEvent: {}
+[10.433582] (-) TimerEvent: {}
+[10.533900] (-) TimerEvent: {}
+[10.634224] (-) TimerEvent: {}
+[10.734861] (-) TimerEvent: {}
+[10.835214] (-) TimerEvent: {}
+[10.935530] (-) TimerEvent: {}
+[11.035852] (-) TimerEvent: {}
+[11.136181] (-) TimerEvent: {}
+[11.236511] (-) TimerEvent: {}
+[11.336840] (-) TimerEvent: {}
+[11.437167] (-) TimerEvent: {}
+[11.537560] (-) TimerEvent: {}
+[11.637912] (-) TimerEvent: {}
+[11.738261] (-) TimerEvent: {}
+[11.838587] (-) TimerEvent: {}
+[11.938913] (-) TimerEvent: {}
+[12.039260] (-) TimerEvent: {}
+[12.139592] (-) TimerEvent: {}
+[12.239932] (-) TimerEvent: {}
+[12.340250] (-) TimerEvent: {}
+[12.440631] (-) TimerEvent: {}
+[12.540938] (-) TimerEvent: {}
+[12.641259] (-) TimerEvent: {}
+[12.741692] (-) TimerEvent: {}
+[12.842000] (-) TimerEvent: {}
+[12.942334] (-) TimerEvent: {}
+[13.042685] (-) TimerEvent: {}
+[13.140338] (cpp_rosbag) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.142787] (-) TimerEvent: {}
+[13.151815] (cpp_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.242947] (-) TimerEvent: {}
+[13.343334] (-) TimerEvent: {}
+[13.367953] (cpp_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.368253] (cpp_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.443489] (-) TimerEvent: {}
+[13.543834] (-) TimerEvent: {}
+[13.598635] (cpp_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.599369] (cpp_rosbag) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.644019] (-) TimerEvent: {}
+[13.717986] (cpp_rosbag) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.9 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[13.744151] (-) TimerEvent: {}
+[13.844478] (-) TimerEvent: {}
+[13.944808] (-) TimerEvent: {}
+[14.045224] (-) TimerEvent: {}
+[14.145630] (-) TimerEvent: {}
+[14.246269] (-) TimerEvent: {}
+[14.346688] (-) TimerEvent: {}
+[14.447085] (-) TimerEvent: {}
+[14.547418] (-) TimerEvent: {}
+[14.647759] (-) TimerEvent: {}
+[14.748100] (-) TimerEvent: {}
+[14.848433] (-) TimerEvent: {}
+[14.948747] (-) TimerEvent: {}
+[15.049070] (-) TimerEvent: {}
+[15.149450] (-) TimerEvent: {}
+[15.249771] (-) TimerEvent: {}
+[15.350085] (-) TimerEvent: {}
+[15.450399] (-) TimerEvent: {}
+[15.550773] (-) TimerEvent: {}
+[15.651105] (-) TimerEvent: {}
+[15.751433] (-) TimerEvent: {}
+[15.851749] (-) TimerEvent: {}
+[15.952063] (-) TimerEvent: {}
+[16.052382] (-) TimerEvent: {}
+[16.152695] (-) TimerEvent: {}
+[16.253154] (-) TimerEvent: {}
+[16.290189] (cpp_rosbag) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[16.331218] (cpp_rosbag) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.353305] (-) TimerEvent: {}
+[16.393185] (cpp_rosbag) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.393406] (cpp_rosbag) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ROS2/tools/src/cpp_rosbag/include>\n'}
+[16.393453] (cpp_rosbag) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.394429] (cpp_rosbag) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.395691] (cpp_rosbag) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.395863] (cpp_rosbag) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.396645] (cpp_rosbag) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.398547] (cpp_rosbag) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.419872] (cpp_rosbag) StdoutLine: {'line': b'-- Generating done\n'}
+[16.421655] (cpp_rosbag) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ROS2/tools/build/cpp_rosbag\n'}
+[16.430364] (cpp_rosbag) CommandEnded: {'returncode': 0}
+[16.430980] (cpp_rosbag) JobProgress: {'identifier': 'cpp_rosbag', 'progress': 'build'}
+[16.431000] (cpp_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ROS2/tools/build/cpp_rosbag', '--', '-j20', '-l20'], 'cwd': '/home/ros/ROS2/tools/build/cpp_rosbag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d9a8bc5-98d5-44ac-bbec-945e7adc5adc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/4639_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/tools/build/cpp_rosbag'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.453532] (-) TimerEvent: {}
+[16.458092] (cpp_rosbag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_writer.dir/src/bag_writer.cpp.o\x1b[0m\n'}
+[16.458273] (cpp_rosbag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_reader.dir/src/bag_reader.cpp.o\x1b[0m\n'}
+[16.458309] (cpp_rosbag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o\x1b[0m\n'}
+[16.489396] (cpp_rosbag) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable demo\x1b[0m\n'}
+[16.553658] (-) TimerEvent: {}
+[16.654025] (-) TimerEvent: {}
+[16.754490] (-) TimerEvent: {}
+[16.763860] (cpp_rosbag) StdoutLine: {'line': b'[ 66%] Built target demo\n'}
+[16.854779] (-) TimerEvent: {}
+[16.955118] (-) TimerEvent: {}
+[17.055546] (-) TimerEvent: {}
+[17.155932] (-) TimerEvent: {}
+[17.256284] (-) TimerEvent: {}
+[17.356664] (-) TimerEvent: {}
+[17.457182] (-) TimerEvent: {}
+[17.557695] (-) TimerEvent: {}
+[17.658231] (-) TimerEvent: {}
+[17.758759] (-) TimerEvent: {}
+[17.859154] (-) TimerEvent: {}
+[17.959734] (-) TimerEvent: {}
+[18.060150] (-) TimerEvent: {}
+[18.160710] (-) TimerEvent: {}
+[18.261153] (-) TimerEvent: {}
+[18.361544] (-) TimerEvent: {}
+[18.398886] (cpp_rosbag) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable bag_reader\x1b[0m\n'}
+[18.399099] (cpp_rosbag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bag_writer\x1b[0m\n'}
+[18.461760] (-) TimerEvent: {}
+[18.562292] (-) TimerEvent: {}
+[18.599796] (cpp_rosbag) StdoutLine: {'line': b'[100%] Built target bag_reader\n'}
+[18.600125] (cpp_rosbag) StdoutLine: {'line': b'[100%] Built target bag_writer\n'}
+[18.608166] (cpp_rosbag) CommandEnded: {'returncode': 0}
+[18.628688] (cpp_rosbag) JobProgress: {'identifier': 'cpp_rosbag', 'progress': 'install'}
+[18.634369] (cpp_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ROS2/tools/build/cpp_rosbag'], 'cwd': '/home/ros/ROS2/tools/build/cpp_rosbag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d9a8bc5-98d5-44ac-bbec-945e7adc5adc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/4639_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/d/msys64/mingw64/bin:/mnt/d/MATLAB/R2022b/runtime/win64:/mnt/d/MATLAB/R2022b/bin:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python311-32/Scripts/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/ninja:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/tools/make:/mnt/c/Users/Lenovo/Desktop/AIPI/AiPi-Open-Kits/aithinker_Ai-M6X_SDK/toolchain/bin:/mnt/d/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Git/cmd:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Lenovo/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/msys64/mingw64/bin:/mnt/d/PyCharm 2023.2.3/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64:/mnt/d/Opencv/opencv/build/x64/vc16/bin:/mnt/d/Opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/AppData/Local/Programs/oh-my-posh/bin:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/bin:/mnt/g/opencv-4.7.0/opencv/build/x64/vc16/lib:/mnt/d/opencv/opencv/build/x64/vc16/bin:/mnt/d/opencv/opencv/build/x64/vc16/lib:/mnt/c/Users/Lenovo/Desktop/SDL2-2.28.5/x86_64-w64-mingw32/bin:/mnt/d/texlive/texlive/2023/bin/windows:/mnt/d/Program Files/cpolar/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc28162464.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/tools/build/cpp_rosbag'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.638402] (cpp_rosbag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.638742] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/demo\n'}
+[18.638885] (cpp_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/demo" to ""\n'}
+[18.639015] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer\n'}
+[18.639138] (cpp_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer" to ""\n'}
+[18.639296] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_reader\n'}
+[18.639477] (cpp_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_reader" to ""\n'}
+[18.640265] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp_rosbag\n'}
+[18.640527] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp_rosbag\n'}
+[18.640635] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.sh\n'}
+[18.640876] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.dsv\n'}
+[18.640980] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.sh\n'}
+[18.641080] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.dsv\n'}
+[18.641140] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.bash\n'}
+[18.641330] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.sh\n'}
+[18.641499] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.zsh\n'}
+[18.641541] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.dsv\n'}
+[18.641571] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.dsv\n'}
+[18.641599] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/packages/cpp_rosbag\n'}
+[18.641885] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig.cmake\n'}
+[18.641995] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig-version.cmake\n'}
+[18.642080] (cpp_rosbag) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.xml\n'}
+[18.643400] (cpp_rosbag) CommandEnded: {'returncode': 0}
+[18.662486] (-) TimerEvent: {}
+[18.673687] (cpp_rosbag) JobEnded: {'identifier': 'cpp_rosbag', 'rc': 0}
+[18.674541] (-) EventReactorShutdown: {}

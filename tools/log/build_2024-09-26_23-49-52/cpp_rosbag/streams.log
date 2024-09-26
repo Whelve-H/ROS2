@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/ros/ROS2/tools/build/cpp_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/tools/build/cpp_rosbag -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target bag_writer[0m
+[0.043s] [ 33%] Built target demo
+[0.048s] [ 66%] Built target bag_reader
+[0.050s] [ 83%] [32mBuilding CXX object CMakeFiles/bag_writer.dir/src/bag_writer.cpp.o[0m
+[6.535s] [100%] [32m[1mLinking CXX executable bag_writer[0m
+[7.059s] [100%] Built target bag_writer
+[7.065s] Invoked command in '/home/ros/ROS2/tools/build/cpp_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/tools/build/cpp_rosbag -- -j20 -l20
+[7.093s] Invoking command in '/home/ros/ROS2/tools/build/cpp_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/tools/build/cpp_rosbag
+[7.097s] -- Install configuration: ""
+[7.097s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/demo
+[7.097s] -- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer
+[7.102s] -- Set runtime path of "/home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer" to ""
+[7.102s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_reader
+[7.102s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp_rosbag
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp_rosbag
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.sh
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.dsv
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.sh
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.dsv
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.bash
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.sh
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.zsh
+[7.103s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.dsv
+[7.104s] -- Installing: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.dsv
+[7.104s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/packages/cpp_rosbag
+[7.104s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig.cmake
+[7.104s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig-version.cmake
+[7.104s] -- Up-to-date: /home/ros/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.xml
+[7.105s] Invoked command in '/home/ros/ROS2/tools/build/cpp_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/tools/build/cpp_rosbag

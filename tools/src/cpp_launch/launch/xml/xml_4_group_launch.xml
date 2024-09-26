@@ -1,0 +1,16 @@
+<launch>
+    <group>
+        <!-- 设置namespace -->
+        <push-ros-namespace namespace= "g1"></push-ros-namespace>
+        <!-- 设置被包含的节点-->
+         <node pkg ="turtlesim"  exec="turtlesim_node" name="t1"></node>
+         <node pkg ="turtlesim"  exec="turtlesim_node" name="t2"></node>
+    </group>
+    <group>
+        <!-- 设置namespace -->
+        <push-ros-namespace namespace= "g2"></push-ros-namespace>
+        <!-- 设置被包含的节点-->
+         <node pkg ="turtlesim"  exec="turtlesim_node" name="t1"></node>
+         <!-- <node pkg ="turtlesim"  exec="turtlesim_node" name="t2"></node> -->
+    </group>
+</launch>

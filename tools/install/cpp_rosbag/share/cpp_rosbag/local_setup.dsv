@@ -1,0 +1,2 @@
+source;share/cpp_rosbag/environment/ament_prefix_path.sh
+source;share/cpp_rosbag/environment/path.sh

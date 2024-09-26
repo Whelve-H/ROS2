@@ -1,0 +1,6 @@
+<launch>
+    <!-- 动态参数导入 传入参数的键和传入参数的值-->  
+    <let name="bg_r" value="0"></let>
+    <!-- 文件包含 -->
+    <include file= "$(find-pkg-share cpp_launch)/launch/xml/xml_3_args_launch.xml"></include>
+</launch>
