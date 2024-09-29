@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (cpp_tf_broadcaster) JobQueued: {'identifier': 'cpp_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000255] (cpp_tf_broadcaster) JobStarted: {'identifier': 'cpp_tf_broadcaster'}
+[0.004089] (cpp_tf_broadcaster) JobProgress: {'identifier': 'cpp_tf_broadcaster', 'progress': 'cmake'}
+[0.004444] (cpp_tf_broadcaster) JobProgress: {'identifier': 'cpp_tf_broadcaster', 'progress': 'build'}
+[0.004942] (cpp_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster', '--', '-j20', '-l20'], 'cwd': '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huang'), ('GIT_ASKPASS', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('OLDPWD', '/home/huang/ros2/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97aae5cd-d5a7-4c39-a721-9b4e6cafc012.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/624_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/b/MATLAB/R2024b/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/h3104/AppData/Local/Microsoft/WindowsApps:/mnt/b/Microsoft VS Code/bin:/snap/bin:/home/huang/.fishros/bin/:/home/huang/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7e64b39b12.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.022783] (cpp_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_dynamic_tf_broadcaster\x1b[0m\n'}
+[0.026001] (cpp_tf_broadcaster) StdoutLine: {'line': b'[ 33%] Built target demo\n'}
+[0.027452] (cpp_tf_broadcaster) StdoutLine: {'line': b'[ 66%] Built target cpp_static_tf_broadcaster\n'}
+[0.029484] (cpp_tf_broadcaster) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/cpp_dynamic_tf_broadcaster.dir/src/cpp_dynamic_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.099774] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.400600] (-) TimerEvent: {}
+[0.500918] (-) TimerEvent: {}
+[0.601261] (-) TimerEvent: {}
+[0.701656] (-) TimerEvent: {}
+[0.802021] (-) TimerEvent: {}
+[0.902324] (-) TimerEvent: {}
+[1.002634] (-) TimerEvent: {}
+[1.102989] (-) TimerEvent: {}
+[1.203246] (-) TimerEvent: {}
+[1.303525] (-) TimerEvent: {}
+[1.403785] (-) TimerEvent: {}
+[1.504051] (-) TimerEvent: {}
+[1.604370] (-) TimerEvent: {}
+[1.704721] (-) TimerEvent: {}
+[1.805005] (-) TimerEvent: {}
+[1.905322] (-) TimerEvent: {}
+[2.005644] (-) TimerEvent: {}
+[2.105943] (-) TimerEvent: {}
+[2.206210] (-) TimerEvent: {}
+[2.306521] (-) TimerEvent: {}
+[2.406776] (-) TimerEvent: {}
+[2.507031] (-) TimerEvent: {}
+[2.607303] (-) TimerEvent: {}
+[2.707591] (-) TimerEvent: {}
+[2.807863] (-) TimerEvent: {}
+[2.908180] (-) TimerEvent: {}
+[3.008462] (-) TimerEvent: {}
+[3.108717] (-) TimerEvent: {}
+[3.208996] (-) TimerEvent: {}
+[3.309279] (-) TimerEvent: {}
+[3.409525] (-) TimerEvent: {}
+[3.509763] (-) TimerEvent: {}
+[3.610018] (-) TimerEvent: {}
+[3.710320] (-) TimerEvent: {}
+[3.810578] (-) TimerEvent: {}
+[3.910870] (-) TimerEvent: {}
+[4.011129] (-) TimerEvent: {}
+[4.100323] (cpp_tf_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_dynamic_tf_broadcaster\x1b[0m\n'}
+[4.111230] (-) TimerEvent: {}
+[4.211495] (-) TimerEvent: {}
+[4.311767] (-) TimerEvent: {}
+[4.313704] (cpp_tf_broadcaster) StdoutLine: {'line': b'[100%] Built target cpp_dynamic_tf_broadcaster\n'}
+[4.325024] (cpp_tf_broadcaster) CommandEnded: {'returncode': 0}
+[4.336025] (cpp_tf_broadcaster) JobProgress: {'identifier': 'cpp_tf_broadcaster', 'progress': 'install'}
+[4.339954] (cpp_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster'], 'cwd': '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huang'), ('GIT_ASKPASS', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('OLDPWD', '/home/huang/ros2/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-97aae5cd-d5a7-4c39-a721-9b4e6cafc012.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/624_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/b/MATLAB/R2024b/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/h3104/AppData/Local/Microsoft/WindowsApps:/mnt/b/Microsoft VS Code/bin:/snap/bin:/home/huang/.fishros/bin/:/home/huang/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7e64b39b12.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[4.342756] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.342856] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/demo\n'}
+[4.342950] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_static_tf_broadcaster\n'}
+[4.343484] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_static_tf_broadcaster" to ""\n'}
+[4.343591] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_dynamic_tf_broadcaster\n'}
+[4.345128] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_dynamic_tf_broadcaster" to ""\n'}
+[4.345252] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp_tf_broadcaster\n'}
+[4.345347] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp_tf_broadcaster\n'}
+[4.345418] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.sh\n'}
+[4.345487] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.dsv\n'}
+[4.345614] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.sh\n'}
+[4.345652] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.dsv\n'}
+[4.345677] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.bash\n'}
+[4.345699] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.sh\n'}
+[4.345722] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.zsh\n'}
+[4.345743] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.dsv\n'}
+[4.345764] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.dsv\n'}
+[4.345784] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/packages/cpp_tf_broadcaster\n'}
+[4.345806] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig.cmake\n'}
+[4.345828] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig-version.cmake\n'}
+[4.345853] (cpp_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.xml\n'}
+[4.346352] (cpp_tf_broadcaster) CommandEnded: {'returncode': 0}
+[4.364856] (cpp_tf_broadcaster) JobEnded: {'identifier': 'cpp_tf_broadcaster', 'rc': 0}
+[4.365400] (-) EventReactorShutdown: {}

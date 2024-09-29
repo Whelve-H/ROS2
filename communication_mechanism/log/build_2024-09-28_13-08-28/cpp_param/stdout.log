@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_param_client[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_param_server[0m
+[ 16%] [32m[1mLinking CXX executable demo_param[0m
+[ 50%] Built target demo_param_server
+[ 83%] Built target demo_param_client
+[100%] Built target demo_param
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_server
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_server" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_client
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_client" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/package_run_dependencies/cpp_param
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/parent_prefix_path/cpp_param
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.bash
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/packages/cpp_param
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig-version.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.xml

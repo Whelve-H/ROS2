@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ROS2/communication_mechanism/src/base_interface_demo
+CMAKE_SOURCE_DIR = /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ROS2/communication_mechanism/build/base_interface_demo
+CMAKE_BINARY_DIR = /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo
 
 # Utility rule file for ament_cmake_python_build_base_interface_demo_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/compiler
 include CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_base_interface_demo_egg:
-	cd /home/ros/ROS2/communication_mechanism/build/base_interface_demo/ament_cmake_python/base_interface_demo && /usr/bin/python3 setup.py egg_info
+	cd /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/ament_cmake_python/base_interface_demo && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_base_interface_demo_egg: CMakeFiles/ament_cmake_python_build_base_interface_demo_egg
 ament_cmake_python_build_base_interface_demo_egg: CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/depend:
-	cd /home/ros/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_base_interface_demo_egg.dir/depend
 

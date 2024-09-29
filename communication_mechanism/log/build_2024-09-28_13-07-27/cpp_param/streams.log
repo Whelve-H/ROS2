@@ -1,0 +1,60 @@
+[0.007s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/cpp_param -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.401s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.443s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.036s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.917s] -- Looking for pthread.h
+[1.964s] -- Looking for pthread.h - found
+[1.964s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.006s] -- Found Threads: TRUE  
+[2.030s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.065s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.065s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/communication_mechanism/src/cpp_param/include>
+[2.065s] -- Configured cppcheck exclude dirs and/or files: 
+[2.066s] -- Added test 'lint_cmake' to check CMake code style
+[2.066s] -- Added test 'uncrustify' to check C / C++ code style
+[2.066s] -- Configured uncrustify additional arguments: 
+[2.066s] -- Added test 'xmllint' to check XML markup files
+[2.067s] -- Configuring done
+[2.074s] -- Generating done
+[2.074s] -- Build files have been written to: /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param
+[2.079s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/cpp_param -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param
+[2.080s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20
+[2.099s] [ 33%] [32mBuilding CXX object CMakeFiles/demo_param.dir/src/demo_param.cpp.o[0m
+[2.099s] [ 33%] [32mBuilding CXX object CMakeFiles/demo_param_server.dir/src/demo_param_server.cpp.o[0m
+[2.099s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_param_client.dir/src/demo_param_client.cpp.o[0m
+[4.035s] [ 66%] [32m[1mLinking CXX executable demo_param[0m
+[4.049s] [ 83%] [32m[1mLinking CXX executable demo_param_server[0m
+[4.116s] collect2: fatal error: ld terminated with signal 11 [Segmentation fault]
+[4.116s] compilation terminated.
+[4.117s] gmake[2]: *** [CMakeFiles/demo_param.dir/build.make:151: demo_param] Error 1
+[4.117s] gmake[2]: *** Deleting file 'demo_param'
+[4.117s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_param.dir/all] Error 2
+[4.117s] gmake[1]: *** Waiting for unfinished jobs....
+[4.129s] [100%] [32m[1mLinking CXX executable demo_param_client[0m
+[4.142s] [100%] Built target demo_param_server
+[4.213s] [100%] Built target demo_param_client
+[4.214s] gmake: *** [Makefile:146: all] Error 2
+[4.215s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20

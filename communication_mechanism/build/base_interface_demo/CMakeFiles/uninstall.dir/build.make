@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ROS2/communication_mechanism/src/base_interface_demo
+CMAKE_SOURCE_DIR = /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ROS2/communication_mechanism/build/base_interface_demo
+CMAKE_BINARY_DIR = /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ros/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

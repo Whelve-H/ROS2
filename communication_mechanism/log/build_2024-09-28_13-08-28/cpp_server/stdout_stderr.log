@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cpp_server_client.dir/src/cpp_server_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_server_server.dir/src/cpp_server_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable cpp_server_client[0m
+[100%] [32m[1mLinking CXX executable cpp_server_server[0m
+[100%] Built target cpp_server_client
+[100%] Built target cpp_server_server
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_server
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_server" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_client
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/lib/cpp_server/cpp_server_client" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/package_run_dependencies/cpp_server
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/parent_prefix_path/cpp_server
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/ament_prefix_path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/environment/path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.bash
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/package.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/ament_index/resource_index/packages/cpp_server
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/cmake/cpp_serverConfig-version.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_server/share/cpp_server/package.xml

@@ -1,0 +1,88 @@
+[0.006s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_coordinates[0m
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_point[0m
+[0.025s] [ 33%] Built target demo
+[0.030s] [ 83%] Built target cpp_tf_listener_coordinates
+[0.030s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o[0m
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:[m[K In member function ‘[01m[Kvoid cpp_tf_listener_point::filter_callback(const PointStamped&)[m[K’:
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K}[m[K’ token
+[1.261s]    81 |     [01;31m[K}[m[K
+[1.261s]       |     [01;31m[K^[m[K
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K}[m[K’ token
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.261s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:81:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K}[m[K’ token
+[1.602s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.602s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.602s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.602s]                  from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:1[m[K:
+[1.602s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’:
+[1.602s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Alloc = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Alloc = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}; _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Alloc = std::allocator<tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}][m[K’
+[1.602s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >; _Args = {message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> >, rclcpp::Node>&, tf2_ros::Buffer&, const char (&)[10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int, std::ratio<1, 1> >}][m[K’
+[1.602s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:56:72:[m[K   required from here
+[1.602s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::MessageFilter<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::MessageFilter(message_filters::Subscriber<geometry_msgs::msg::Point_<std::allocator<void> > >&, tf2_ros::Buffer&, const char [10], int, rclcpp::Logger, std::shared_ptr<rclcpp::Clock>, std::chrono::duration<long int>)[m[K’
+[1.602s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.602s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.602s] In file included from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:8[m[K:
+[1.602s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class F, class TimeRepT, class TimeT> tf2_ros::MessageFilter<M, BufferT>::MessageFilter(F&, BufferT&, const string&, uint32_t, const SharedPtr&, const SharedPtr&, std::chrono::duration<TimeRepT, TimeT>) [with F = F; TimeRepT = TimeRepT; TimeT = TimeT; M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; BufferT = tf2_ros::Buffer][m[K’
+[1.602s]   241 |   [01;36m[KMessageFilter[m[K(
+[1.602s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.602s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.602s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.602s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.602s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.602s]                  from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:1[m[K:
+[1.602s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<rclcpp::Logger>((* & __args#4))[m[K’ (type ‘[01m[Krclcpp::Logger[m[K’) to type ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>&[m[K’}
+[1.603s]   162 |         { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.603s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.603s] In file included from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:8[m[K:
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class F, class TimeRepT, class TimeT> tf2_ros::MessageFilter<M, BufferT>::MessageFilter(F&, BufferT&, const string&, uint32_t, const SharedPtr&, std::chrono::duration<TimeRepT, TimeT>) [with F = F; TimeRepT = TimeRepT; TimeT = TimeT; M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; BufferT = tf2_ros::Buffer][m[K’
+[1.603s]   219 |   [01;36m[KMessageFilter[m[K(
+[1.603s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.603s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.603s]                  from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:1[m[K:
+[1.603s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’ is not derived from ‘[01m[Kstd::chrono::duration<_Rep, _Period>[m[K’
+[1.603s]   162 |         { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.603s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.603s] In file included from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:8[m[K:
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:192:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class TimeRepT, class TimeT> tf2_ros::MessageFilter<M, BufferT>::MessageFilter(BufferT&, const string&, uint32_t, const SharedPtr&, const SharedPtr&, std::chrono::duration<_Rep, _Period>) [with TimeRepT = TimeRepT; TimeT = TimeT; M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; BufferT = tf2_ros::Buffer][m[K’
+[1.603s]   192 |   [01;36m[KMessageFilter[m[K(
+[1.603s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:192:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.603s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.603s]                  from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:1[m[K:
+[1.603s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’ is not derived from ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’
+[1.603s]   162 |         { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.603s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.603s] In file included from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:8[m[K:
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:165:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class TimeRepT, class TimeT> tf2_ros::MessageFilter<M, BufferT>::MessageFilter(BufferT&, const string&, uint32_t, const SharedPtr&, std::chrono::duration<_Rep, _Period>) [with TimeRepT = TimeRepT; TimeT = TimeT; M = geometry_msgs::msg::PointStamped_<std::allocator<void> >; BufferT = tf2_ros::Buffer][m[K’
+[1.603s]   165 |   [01;36m[KMessageFilter[m[K(
+[1.603s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.603s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/message_filter.h:165:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.603s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[1.603s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[1.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.603s]                  from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_point.cpp:1[m[K:
+[1.603s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Logger[m[K’ is not derived from ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’
+[1.603s]   162 |         { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.603s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.964s] gmake[2]: *** [CMakeFiles/cpp_tf_listener_point.dir/build.make:76: CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o] Error 1
+[2.964s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cpp_tf_listener_point.dir/all] Error 2
+[2.964s] gmake: *** [Makefile:146: all] Error 2
+[2.966s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20

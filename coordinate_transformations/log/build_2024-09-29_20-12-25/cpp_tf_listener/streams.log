@@ -1,0 +1,27 @@
+[0.006s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[0.016s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.074s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.116s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.117s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.120s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.145s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.146s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.369s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.393s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.400s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.436s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.437s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.438s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.440s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.440s]   ament_target_dependencies() the passed package name 'message_filter' was
+[1.440s]   not found before
+[1.440s] Call Stack (most recent call first):
+[1.440s]   CMakeLists.txt:46 (ament_target_dependencies)
+[1.440s] 
+[1.440s] [0m
+[1.440s] -- Configuring incomplete, errors occurred!
+[1.440s] See also "/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener/CMakeFiles/CMakeOutput.log".
+[1.444s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[1.445s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20

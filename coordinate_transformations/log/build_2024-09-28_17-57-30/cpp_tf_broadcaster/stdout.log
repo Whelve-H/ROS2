@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_dynamic_tf_broadcaster[0m
+[ 33%] Built target demo
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_static_tf_broadcaster.dir/src/cpp_static_tf_broadcaster.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cpp_dynamic_tf_broadcaster.dir/src/cpp_dynamic_tf_broadcaster.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable cpp_static_tf_broadcaster[0m
+[ 83%] Built target cpp_static_tf_broadcaster

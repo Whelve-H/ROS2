@@ -1,0 +1,80 @@
+[0.005s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.497s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.753s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.971s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.384s] -- Looking for pthread.h
+[1.432s] -- Looking for pthread.h - found
+[1.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.476s] -- Found Threads: TRUE  
+[1.501s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.511s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.557s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.597s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/include>
+[1.597s] -- Configured cppcheck exclude dirs and/or files: 
+[1.598s] -- Added test 'lint_cmake' to check CMake code style
+[1.598s] -- Added test 'uncrustify' to check C / C++ code style
+[1.598s] -- Configured uncrustify additional arguments: 
+[1.599s] -- Added test 'xmllint' to check XML markup files
+[1.600s] -- Configuring done
+[1.609s] -- Generating done
+[1.610s] -- Build files have been written to: /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener
+[1.616s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener
+[1.617s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o[0m
+[1.655s] [ 66%] [32m[1mLinking CXX executable demo[0m
+[1.740s] [ 66%] Built target demo
+[3.047s] [ 83%] [32m[1mLinking CXX executable cpp_tf_listener_point[0m
+[3.047s] [100%] [32m[1mLinking CXX executable cpp_tf_listener_coordinates[0m
+[3.110s] [100%] Built target cpp_tf_listener_coordinates
+[3.110s] [100%] Built target cpp_tf_listener_point
+[3.115s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[3.131s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener
+[3.134s] -- Install configuration: ""
+[3.135s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/demo
+[3.135s] -- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/demo" to ""
+[3.135s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/cpp_tf_listener_coordinates
+[3.135s] -- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/cpp_tf_listener_coordinates" to ""
+[3.135s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/cpp_tf_listener_point
+[3.135s] -- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/lib/cpp_tf_listener/cpp_tf_listener_point" to ""
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp_tf_listener
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp_tf_listener
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/environment/ament_prefix_path.sh
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/environment/ament_prefix_path.dsv
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/environment/path.sh
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/environment/path.dsv
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/local_setup.bash
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/local_setup.sh
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/local_setup.zsh
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/local_setup.dsv
+[3.136s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/package.dsv
+[3.137s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/ament_index/resource_index/packages/cpp_tf_listener
+[3.137s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/cmake/cpp_tf_listenerConfig.cmake
+[3.137s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/cmake/cpp_tf_listenerConfig-version.cmake
+[3.137s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener/share/cpp_tf_listener/package.xml
+[3.138s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'cpp_tf_broadcaster'}
+[0.000396] (cpp_tf_listener) JobQueued: {'identifier': 'cpp_tf_listener', 'dependencies': OrderedDict()}
+[0.000418] (cpp_tf_listener) JobStarted: {'identifier': 'cpp_tf_listener'}
+[0.006188] (cpp_tf_listener) JobProgress: {'identifier': 'cpp_tf_listener', 'progress': 'cmake'}
+[0.006953] (cpp_tf_listener) JobProgress: {'identifier': 'cpp_tf_listener', 'progress': 'build'}
+[0.007385] (cpp_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener', '--', '-j20', '-l20'], 'cwd': '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huang'), ('GIT_ASKPASS', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('OLDPWD', '/home/huang/ros2/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-572a0e89-8aec-44e8-a6b3-d80720684ee1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/627_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/b/MATLAB/R2024b/bin:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Launcher/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/h3104/AppData/Local/Microsoft/WindowsApps:/mnt/b/Microsoft VS Code/bin:/snap/bin:/home/huang/.fishros/bin/:/home/huang/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af7530762e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041858] (cpp_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo\x1b[0m\n'}
+[0.042099] (cpp_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_tf_listener_point\x1b[0m\n'}
+[0.042247] (cpp_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_tf_listener_coordinates\x1b[0m\n'}
+[0.046109] (cpp_tf_listener) StdoutLine: {'line': b'[ 33%] Built target demo\n'}
+[0.048748] (cpp_tf_listener) StdoutLine: {'line': b'[ 66%] Built target cpp_tf_listener_point\n'}
+[0.048881] (cpp_tf_listener) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o\x1b[0m\n'}
+[0.099770] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.300243] (-) TimerEvent: {}
+[0.400515] (-) TimerEvent: {}
+[0.500813] (-) TimerEvent: {}
+[0.601110] (-) TimerEvent: {}
+[0.701370] (-) TimerEvent: {}
+[0.801639] (-) TimerEvent: {}
+[0.901902] (-) TimerEvent: {}
+[1.002169] (-) TimerEvent: {}
+[1.102446] (-) TimerEvent: {}
+[1.202696] (-) TimerEvent: {}
+[1.238330] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcpp_tf_listener_coordinates::cpp_tf_listener_coordinates()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.238463] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:39:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say \xe2\x80\x98\x1b[01m\x1b[K&cpp_tf_listener_coordinates::timer_callback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.238497] (cpp_tf_listener) StderrLine: {'line': b'   39 |         timer = this->create_wall_timer(1s, std::bind(&\x1b[01;31m\x1b[Ktimer_callback\x1b[m\x1b[K, this));\n'}
+[1.238524] (cpp_tf_listener) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.245516] (cpp_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.245642] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.245670] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.245696] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.245725] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.245747] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.245769] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.245791] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.245811] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.245833] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.245855] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.245875] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:2\x1b[m\x1b[K:\n'}
+[1.245896] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cpp_tf_listener_coordinates::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.245919] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:53:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.245949] (cpp_tf_listener) StderrLine: {'line': b'   53 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"\xe7\x88\xb6\xe5\x9d\x90\xe6\xa0\x87\xe7\xb3\xbb: %s"\x1b[m\x1b[K,ts.header.frame_id);\n'}
+[1.246041] (cpp_tf_listener) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.246112] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:53:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.246167] (cpp_tf_listener) StderrLine: {'line': b'   53 |         RCLCPP_INFO(this->get_logger(),"\xe7\x88\xb6\xe5\x9d\x90\xe6\xa0\x87\xe7\xb3\xbb: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",ts.header.frame_id);\n'}
+[1.246195] (cpp_tf_listener) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.246218] (cpp_tf_listener) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.246289] (cpp_tf_listener) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[1.246450] (cpp_tf_listener) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.246517] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.246548] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.246573] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.246597] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.246620] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.246641] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.246664] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.246686] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.246708] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.246731] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.246752] (cpp_tf_listener) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:2\x1b[m\x1b[K:\n'}
+[1.246774] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:54:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_child_frame_id_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.246798] (cpp_tf_listener) StderrLine: {'line': b'   54 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"\xe5\xad\x90\xe5\x9d\x90\xe6\xa0\x87\xe7\xb3\xbb: %s"\x1b[m\x1b[K,ts.child_frame_id);\n'}
+[1.246819] (cpp_tf_listener) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.246840] (cpp_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:54:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.246862] (cpp_tf_listener) StderrLine: {'line': b'   54 |         RCLCPP_INFO(this->get_logger(),"\xe5\xad\x90\xe5\x9d\x90\xe6\xa0\x87\xe7\xb3\xbb: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K",ts.child_frame_id);\n'}
+[1.246884] (cpp_tf_listener) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.246904] (cpp_tf_listener) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.246924] (cpp_tf_listener) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[1.302797] (-) TimerEvent: {}
+[1.403050] (-) TimerEvent: {}
+[1.503297] (-) TimerEvent: {}
+[1.603547] (-) TimerEvent: {}
+[1.703791] (-) TimerEvent: {}
+[1.804040] (-) TimerEvent: {}
+[1.904326] (-) TimerEvent: {}
+[2.004735] (-) TimerEvent: {}
+[2.105024] (-) TimerEvent: {}
+[2.205313] (-) TimerEvent: {}
+[2.305690] (-) TimerEvent: {}
+[2.406075] (-) TimerEvent: {}
+[2.506337] (-) TimerEvent: {}
+[2.532817] (cpp_tf_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_tf_listener_coordinates.dir/build.make:76: CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o] Error 1\n'}
+[2.533037] (cpp_tf_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_tf_listener_coordinates.dir/all] Error 2\n'}
+[2.533119] (cpp_tf_listener) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.534189] (cpp_tf_listener) CommandEnded: {'returncode': 2}
+[2.557763] (cpp_tf_listener) JobEnded: {'identifier': 'cpp_tf_listener', 'rc': 2}
+[2.568262] (-) EventReactorShutdown: {}

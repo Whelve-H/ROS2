@@ -4,7 +4,7 @@
   <name>cpp_topic</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="orangepi@todo.todo">orangepi</maintainer>
+  <maintainer email="h3104894518@foxmail.com">小黄同学</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

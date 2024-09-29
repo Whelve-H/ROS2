@@ -1,6 +1,0 @@
-Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/turtle/src/exercise -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/turtle/install/exercise
-Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/turtle/src/exercise -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/turtle/install/exercise
-Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
-Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/turtle/build/exercise -- -j20 -l20
-Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/turtle/build/exercise
-Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/turtle/build/exercise

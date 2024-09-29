@@ -1,0 +1,43 @@
+[0.035s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_server': AMENT_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/cpp_server -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/cpp_server
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.469s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.625s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.710s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.204s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.440s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.696s] -- Looking for pthread.h
+[1.738s] -- Looking for pthread.h - found
+[1.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.779s] -- Found Threads: TRUE  
+[1.803s] -- Found base_interface_demo: 0.0.0 (/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake)
+[1.822s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.859s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/communication_mechanism/src/cpp_server/include>
+[1.859s] -- Configured cppcheck exclude dirs and/or files: 
+[1.860s] -- Added test 'lint_cmake' to check CMake code style
+[1.860s] -- Added test 'uncrustify' to check C / C++ code style
+[1.861s] -- Configured uncrustify additional arguments: 
+[1.861s] -- Added test 'xmllint' to check XML markup files
+[1.862s] -- Configuring done
+[1.869s] -- Generating done
+[1.869s] -- Build files have been written to: /home/huang/ros2/ROS2/communication_mechanism/build/cpp_server

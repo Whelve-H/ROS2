@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ROS2/communication_mechanism/src/cpp_param
+# Install script for directory: /home/huang/ros2/ROS2/communication_mechanism/src/cpp_param
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ROS2/communication_mechanism/install/cpp_param")
+  set(CMAKE_INSTALL_PREFIX "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/demo_param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/demo_param")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/demo_param_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/demo_param_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_server")
     file(RPATH_CHANGE
@@ -89,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/demo_param_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_param" TYPE EXECUTABLE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/demo_param_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_param/demo_param_client")
     file(RPATH_CHANGE
@@ -103,11 +103,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_param")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_param")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,7 +115,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param/environment" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param/environment" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,42 +123,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param/environment" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param/environment" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/packages/cpp_param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_index/share/ament_index/resource_index/packages/cpp_param")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param/cmake" TYPE FILE FILES
-    "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_core/cpp_paramConfig.cmake"
-    "/home/ros/ROS2/communication_mechanism/build/cpp_param/ament_cmake_core/cpp_paramConfig-version.cmake"
+    "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_core/cpp_paramConfig.cmake"
+    "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/ament_cmake_core/cpp_paramConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/ros/ROS2/communication_mechanism/src/cpp_param/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_param" TYPE FILE FILES "/home/huang/ros2/ROS2/communication_mechanism/src/cpp_param/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -169,5 +169,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ros/ROS2/communication_mechanism/build/cpp_param/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

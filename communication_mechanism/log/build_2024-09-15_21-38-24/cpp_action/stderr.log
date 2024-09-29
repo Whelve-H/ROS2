@@ -1,7 +1,0 @@
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_client.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_action/src/cpp_action_client.cpp:202:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Action_client[m[K’ {aka ‘[01m[Kclass Action_client[m[K’} has no member named ‘[01m[Kcancel_goal[m[K’
-  202 |       action_client->[01;31m[Kcancel_goal[m[K(); // 调用取消目标的函数
-      |                      [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/cpp_action_client.dir/build.make:76: CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_action_client.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

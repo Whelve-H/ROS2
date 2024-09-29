@@ -1,7 +1,7 @@
 CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.c.o: \
- /home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.c \
+ /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.c \
  /usr/include/stdc-predef.h \
- /home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.h \
+ /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,8 +43,8 @@ CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_i
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/msg/rosidl_generator_c__visibility_control.h \
- /home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__struct.h \
+ /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/msg/rosidl_generator_c__visibility_control.h \
+ /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_generator_c/base_interface_demo/srv/detail/sum__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/assert.h \

@@ -1,0 +1,31 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/cpp_action_server.dir/src/cpp_action_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/minimal_action_client.dir/src/minimal_action_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_action_client.dir/src/cpp_action_client.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable cpp_action_server[0m
+[ 83%] [32m[1mLinking CXX executable cpp_action_client[0m
+[100%] [32m[1mLinking CXX executable minimal_action_client[0m
+[100%] Built target cpp_action_server
+[100%] Built target cpp_action_client
+[100%] Built target minimal_action_client
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_server" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/cpp_action_client" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/minimal_action_client
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/lib/cpp_action/minimal_action_client" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/package_run_dependencies/cpp_action
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/parent_prefix_path/cpp_action
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/ament_prefix_path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/environment/path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.bash
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/ament_index/resource_index/packages/cpp_action
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/cmake/cpp_actionConfig-version.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_action/share/cpp_action/package.xml

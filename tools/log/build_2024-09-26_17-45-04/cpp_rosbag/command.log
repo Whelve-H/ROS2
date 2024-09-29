@@ -1,6 +1,0 @@
-Invoking command in '/home/ros/ROS2/tools/build/cpp_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/tools/src/cpp_rosbag -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/tools/install/cpp_rosbag
-Invoked command in '/home/ros/ROS2/tools/build/cpp_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/tools/src/cpp_rosbag -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/tools/install/cpp_rosbag
-Invoking command in '/home/ros/ROS2/tools/build/cpp_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/tools/build/cpp_rosbag -- -j20 -l20
-Invoked command in '/home/ros/ROS2/tools/build/cpp_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/tools/build/cpp_rosbag -- -j20 -l20
-Invoking command in '/home/ros/ROS2/tools/build/cpp_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/tools/build/cpp_rosbag
-Invoked command in '/home/ros/ROS2/tools/build/cpp_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/tools/build/cpp_rosbag

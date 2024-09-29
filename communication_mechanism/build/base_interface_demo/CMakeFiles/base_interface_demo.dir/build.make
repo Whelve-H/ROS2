@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ROS2/communication_mechanism/src/base_interface_demo
+CMAKE_SOURCE_DIR = /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ROS2/communication_mechanism/build/base_interface_demo
+CMAKE_BINARY_DIR = /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo
 
 # Utility rule file for base_interface_demo.
 
@@ -66,11 +66,11 @@ include CMakeFiles/base_interface_demo.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/base_interface_demo.dir/progress.make
 
-CMakeFiles/base_interface_demo: /home/ros/ROS2/communication_mechanism/src/base_interface_demo/msg/Student.msg
-CMakeFiles/base_interface_demo: /home/ros/ROS2/communication_mechanism/src/base_interface_demo/srv/Sum.srv
+CMakeFiles/base_interface_demo: /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo/msg/Student.msg
+CMakeFiles/base_interface_demo: /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo/srv/Sum.srv
 CMakeFiles/base_interface_demo: rosidl_cmake/srv/Sum_Request.msg
 CMakeFiles/base_interface_demo: rosidl_cmake/srv/Sum_Response.msg
-CMakeFiles/base_interface_demo: /home/ros/ROS2/communication_mechanism/src/base_interface_demo/action/Progress.action
+CMakeFiles/base_interface_demo: /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo/action/Progress.action
 CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -89,6 +89,6 @@ CMakeFiles/base_interface_demo.dir/clean:
 .PHONY : CMakeFiles/base_interface_demo.dir/clean
 
 CMakeFiles/base_interface_demo.dir/depend:
-	cd /home/ros/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/src/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo /home/ros/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/base_interface_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/CMakeFiles/base_interface_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_interface_demo.dir/depend
 

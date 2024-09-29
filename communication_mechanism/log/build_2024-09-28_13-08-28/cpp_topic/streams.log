@@ -1,0 +1,40 @@
+[0.018s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic': CMAKE_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic -- -j20 -l20
+[0.039s] [ 12%] [32mBuilding CXX object CMakeFiles/cpp_topic_talker_define.dir/src/cpp_topic_talker_define.cpp.o[0m
+[0.039s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_topic_talker.dir/src/cpp_topic_talker.cpp.o[0m
+[0.040s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_listener.dir/src/cpp_topic_listener.cpp.o[0m
+[0.040s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_topic_listener_define.dir/src/cpp_topic_listener_define.cpp.o[0m
+[3.020s] [ 62%] [32m[1mLinking CXX executable cpp_topic_talker[0m
+[3.052s] [ 75%] [32m[1mLinking CXX executable cpp_topic_talker_define[0m
+[3.137s] [ 75%] Built target cpp_topic_talker
+[3.163s] [ 75%] Built target cpp_topic_talker_define
+[4.937s] [ 87%] [32m[1mLinking CXX executable cpp_topic_listener_define[0m
+[4.983s] [100%] [32m[1mLinking CXX executable cpp_topic_listener[0m
+[5.139s] [100%] Built target cpp_topic_listener_define
+[5.183s] [100%] Built target cpp_topic_listener
+[5.188s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic -- -j20 -l20
+[5.201s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic': CMAKE_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic
+[5.204s] -- Install configuration: ""
+[5.204s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker
+[5.205s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker" to ""
+[5.205s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener
+[5.206s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener" to ""
+[5.206s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker_define
+[5.207s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker_define" to ""
+[5.207s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener_define
+[5.208s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener_define" to ""
+[5.208s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[5.208s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/path.sh
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.bash
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.sh
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[5.209s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/package.dsv
+[5.210s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[5.210s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[5.210s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[5.210s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/package.xml
+[5.211s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo:/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_topic

@@ -1,0 +1,41 @@
+[0.007s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.092s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.152s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.156s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.194s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.548s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.551s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.552s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.554s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.591s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.592s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/include>
+[1.592s] -- Configured cppcheck exclude dirs and/or files: 
+[1.592s] -- Added test 'lint_cmake' to check CMake code style
+[1.592s] -- Added test 'uncrustify' to check C / C++ code style
+[1.592s] -- Configured uncrustify additional arguments: 
+[1.593s] -- Added test 'xmllint' to check XML markup files
+[1.594s] -- Configuring done
+[1.606s] -- Generating done
+[1.608s] -- Build files have been written to: /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener
+[1.621s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[1.621s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_point[0m
+[1.622s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_coordinates[0m
+[1.625s] [ 33%] Built target demo
+[1.629s] [ 50%] [32m[1mLinking CXX executable cpp_tf_listener_point[0m
+[1.629s] [ 83%] Built target cpp_tf_listener_coordinates
+[1.954s] /usr/bin/ld: CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o: in function `geometry_msgs::msg::PointStamped_<std::allocator<void> >& tf2_ros::BufferInterface::transform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> >) const':
+[1.954s] cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x5a): undefined reference to `std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > tf2::getTimestamp<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'
+[1.954s] /usr/bin/ld: cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x7a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > tf2::getFrameId<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'
+[1.954s] /usr/bin/ld: cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0xcf): undefined reference to `void tf2::doTransform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)'
+[1.980s] collect2: error: ld returned 1 exit status
+[1.981s] gmake[2]: *** [CMakeFiles/cpp_tf_listener_point.dir/build.make:198: cpp_tf_listener_point] Error 1
+[1.981s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cpp_tf_listener_point.dir/all] Error 2
+[1.981s] gmake: *** [Makefile:146: all] Error 2
+[1.983s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20

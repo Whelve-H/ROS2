@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (-) JobUnselected: {'identifier': 'cpp_tf_broadcaster'}
+[0.000529] (cpp_tf_listener) JobQueued: {'identifier': 'cpp_tf_listener', 'dependencies': OrderedDict()}
+[0.000551] (cpp_tf_listener) JobStarted: {'identifier': 'cpp_tf_listener'}
+[0.004259] (cpp_tf_listener) JobProgress: {'identifier': 'cpp_tf_listener', 'progress': 'cmake'}
+[0.004587] (cpp_tf_listener) JobProgress: {'identifier': 'cpp_tf_listener', 'progress': 'build'}
+[0.005060] (cpp_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener', '--', '-j20', '-l20'], 'cwd': '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'huang'), ('GIT_ASKPASS', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('OLDPWD', '/home/huang/ros2/ROS2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-572a0e89-8aec-44e8-a6b3-d80720684ee1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('NAME', 'huang'), ('WSL_INTEROP', '/run/WSL/627_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/b/MATLAB/R2024b/bin:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/h3104/AppData/Local/Programs/Python/Launcher/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/h3104/AppData/Local/Microsoft/WindowsApps:/mnt/b/Microsoft VS Code/bin:/snap/bin:/home/huang/.fishros/bin/:/home/huang/.fishros/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af7530762e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener:/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_listener:/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.024146] (cpp_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_tf_listener_point\x1b[0m\n'}
+[0.026526] (cpp_tf_listener) StdoutLine: {'line': b'[ 33%] Built target demo\n'}
+[0.028832] (cpp_tf_listener) StdoutLine: {'line': b'[ 66%] Built target cpp_tf_listener_coordinates\n'}
+[0.031205] (cpp_tf_listener) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o\x1b[0m\n'}
+[0.099742] (-) TimerEvent: {}
+[0.200031] (-) TimerEvent: {}
+[0.300548] (-) TimerEvent: {}
+[0.400834] (-) TimerEvent: {}
+[0.501109] (-) TimerEvent: {}
+[0.601372] (-) TimerEvent: {}
+[0.701648] (-) TimerEvent: {}
+[0.801934] (-) TimerEvent: {}
+[0.902209] (-) TimerEvent: {}
+[1.002487] (-) TimerEvent: {}
+[1.102935] (-) TimerEvent: {}
+[1.203215] (-) TimerEvent: {}
+[1.303494] (-) TimerEvent: {}
+[1.403836] (-) TimerEvent: {}
+[1.504205] (-) TimerEvent: {}
+[1.604504] (-) TimerEvent: {}
+[1.704790] (-) TimerEvent: {}
+[1.805068] (-) TimerEvent: {}
+[1.905341] (-) TimerEvent: {}
+[2.005625] (-) TimerEvent: {}
+[2.105951] (-) TimerEvent: {}
+[2.206226] (-) TimerEvent: {}
+[2.306498] (-) TimerEvent: {}
+[2.406827] (-) TimerEvent: {}
+[2.507134] (-) TimerEvent: {}
+[2.607414] (-) TimerEvent: {}
+[2.707780] (-) TimerEvent: {}
+[2.808069] (-) TimerEvent: {}
+[2.908475] (-) TimerEvent: {}
+[3.008749] (-) TimerEvent: {}
+[3.109047] (-) TimerEvent: {}
+[3.209314] (-) TimerEvent: {}
+[3.309605] (-) TimerEvent: {}
+[3.409888] (-) TimerEvent: {}
+[3.510179] (-) TimerEvent: {}
+[3.610487] (-) TimerEvent: {}
+[3.710743] (-) TimerEvent: {}
+[3.811007] (-) TimerEvent: {}
+[3.911272] (-) TimerEvent: {}
+[4.011540] (-) TimerEvent: {}
+[4.111800] (-) TimerEvent: {}
+[4.212054] (-) TimerEvent: {}
+[4.312386] (-) TimerEvent: {}
+[4.412671] (-) TimerEvent: {}
+[4.512947] (-) TimerEvent: {}
+[4.613223] (-) TimerEvent: {}
+[4.713501] (-) TimerEvent: {}
+[4.813801] (-) TimerEvent: {}
+[4.914116] (-) TimerEvent: {}
+[5.014376] (-) TimerEvent: {}
+[5.114708] (-) TimerEvent: {}
+[5.215059] (-) TimerEvent: {}
+[5.315475] (-) TimerEvent: {}
+[5.415742] (-) TimerEvent: {}
+[5.516010] (-) TimerEvent: {}
+[5.616273] (-) TimerEvent: {}
+[5.716546] (-) TimerEvent: {}
+[5.816822] (-) TimerEvent: {}
+[5.917119] (-) TimerEvent: {}
+[6.017407] (-) TimerEvent: {}
+[6.117700] (-) TimerEvent: {}
+[6.171770] (cpp_tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_tf_listener_point\x1b[0m\n'}
+[6.217825] (-) TimerEvent: {}
+[6.318158] (-) TimerEvent: {}
+[6.418426] (-) TimerEvent: {}
+[6.493762] (cpp_tf_listener) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/cpp_tf_listener_point.dir/src/cpp_tf_listener_point.cpp.o: in function `geometry_msgs::msg::PointStamped_<std::allocator<void> >& tf2_ros::BufferInterface::transform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> >) const':\n"}
+[6.494014] (cpp_tf_listener) StderrLine: {'line': b"cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x5a): undefined reference to `std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > tf2::getTimestamp<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'\n"}
+[6.494120] (cpp_tf_listener) StderrLine: {'line': b"/usr/bin/ld: cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x7a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > tf2::getFrameId<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'\n"}
+[6.494419] (cpp_tf_listener) StderrLine: {'line': b"/usr/bin/ld: cpp_tf_listener_point.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0xcf): undefined reference to `void tf2::doTransform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)'\n"}
+[6.518537] (-) TimerEvent: {}
+[6.523799] (cpp_tf_listener) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[6.524486] (cpp_tf_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_tf_listener_point.dir/build.make:198: cpp_tf_listener_point] Error 1\n'}
+[6.524731] (cpp_tf_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cpp_tf_listener_point.dir/all] Error 2\n'}
+[6.524817] (cpp_tf_listener) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.525702] (cpp_tf_listener) CommandEnded: {'returncode': 2}
+[6.543784] (cpp_tf_listener) JobEnded: {'identifier': 'cpp_tf_listener', 'rc': 2}
+[6.554231] (-) EventReactorShutdown: {}

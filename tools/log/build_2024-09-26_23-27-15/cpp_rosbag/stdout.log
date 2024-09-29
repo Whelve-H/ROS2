@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target demo[0m
-[35m[1mConsolidate compiler generated dependencies of target bag_reader[0m
-[35m[1mConsolidate compiler generated dependencies of target bag_writer[0m
-[ 33%] Built target demo
-[ 66%] [32mBuilding CXX object CMakeFiles/bag_writer.dir/src/bag_writer.cpp.o[0m
-[ 83%] Built target bag_reader

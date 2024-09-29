@@ -1,0 +1,317 @@
+[0.008s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.399s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.834s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.902s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.902s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.902s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.902s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.913s] -- Found PythonExtra: .so  
+[0.937s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.945s] -- Added test 'lint_cmake' to check CMake code style
+[0.945s] -- Added test 'xmllint' to check XML markup files
+[0.946s] -- Configuring done
+[0.967s] -- Generating done
+[0.968s] -- Build files have been written to: /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo
+[0.972s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/base_interface_demo -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo
+[0.973s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo -- -j20 -l20
+[0.989s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.993s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.996s] [  4%] Built target ament_cmake_python_copy_base_interface_demo
+[1.091s] running egg_info
+[1.092s] creating base_interface_demo.egg-info
+[1.092s] writing base_interface_demo.egg-info/PKG-INFO
+[1.092s] writing dependency_links to base_interface_demo.egg-info/dependency_links.txt
+[1.092s] writing top-level names to base_interface_demo.egg-info/top_level.txt
+[1.092s] writing manifest file 'base_interface_demo.egg-info/SOURCES.txt'
+[1.093s] reading manifest file 'base_interface_demo.egg-info/SOURCES.txt'
+[1.093s] writing manifest file 'base_interface_demo.egg-info/SOURCES.txt'
+[1.105s] [  4%] Built target ament_cmake_python_build_base_interface_demo_egg
+[1.228s] [  4%] Built target base_interface_demo__cpp
+[1.233s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.234s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.235s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.243s] [ 14%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interface_demo/srv/detail/sum__functions.c.o[0m
+[1.243s] [ 14%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interface_demo/action/detail/progress__functions.c.o[0m
+[1.243s] [ 17%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interface_demo/msg/detail/student__functions.c.o[0m
+[1.307s] [ 19%] [32m[1mLinking C shared library libbase_interface_demo__rosidl_generator_c.so[0m
+[1.345s] [ 19%] Built target base_interface_demo__rosidl_generator_c
+[1.350s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.350s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.352s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.401s] [ 27%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interface_demo/srv/sum__type_support.cpp.o[0m
+[1.402s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interface_demo/action/progress__type_support.cpp.o[0m
+[1.402s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interface_demo/msg/student__type_support.cpp.o[0m
+[1.449s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interface_demo/action/detail/progress__type_support.cpp.o[0m
+[1.449s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interface_demo/srv/detail/sum__type_support.cpp.o[0m
+[1.449s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interface_demo/msg/detail/student__type_support.cpp.o[0m
+[1.490s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interface_demo/srv/detail/dds_fastrtps/sum__type_support.cpp.o[0m
+[1.490s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interface_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[1.491s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interface_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[1.555s] [ 48%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interface_demo/action/progress__type_support.cpp.o[0m
+[1.555s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interface_demo/srv/sum__type_support.cpp.o[0m
+[1.556s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interface_demo/msg/student__type_support.cpp.o[0m
+[1.587s] [ 53%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_c.so[0m
+[1.640s] [ 53%] Built target base_interface_demo__rosidl_typesupport_c
+[1.649s] [ 55%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interface_demo/msg/detail/student__type_support.c.o[0m
+[1.651s] [ 59%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interface_demo/srv/detail/sum__type_support.c.o[0m
+[1.651s] [ 59%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interface_demo/action/detail/progress__type_support.c.o[0m
+[1.664s] [ 61%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interface_demo/srv/detail/sum__type_support_c.cpp.o[0m
+[1.664s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interface_demo/msg/detail/student__type_support_c.cpp.o[0m
+[1.664s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interface_demo/action/detail/progress__type_support_c.cpp.o[0m
+[1.690s] [ 68%] [32m[1mLinking C shared library libbase_interface_demo__rosidl_typesupport_introspection_c.so[0m
+[1.705s] [ 70%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_cpp.so[0m
+[1.731s] [ 70%] Built target base_interface_demo__rosidl_typesupport_introspection_c
+[1.749s] [ 70%] Built target base_interface_demo__rosidl_typesupport_cpp
+[1.825s] [ 72%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_introspection_cpp.so[0m
+[1.838s] [ 74%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.878s] [ 74%] Built target base_interface_demo__rosidl_typesupport_introspection_cpp
+[1.889s] [ 74%] Built target base_interface_demo__rosidl_typesupport_fastrtps_cpp
+[1.905s] [ 76%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_fastrtps_c.so[0m
+[1.950s] [ 76%] Built target base_interface_demo__rosidl_typesupport_fastrtps_c
+[1.958s] [ 76%] Built target base_interface_demo
+[1.967s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.413s] [ 78%] Built target base_interface_demo__py
+[2.424s] [ 80%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interface_demo/msg/_student_s.c.o[0m
+[2.425s] [ 82%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interface_demo/srv/_sum_s.c.o[0m
+[2.426s] [ 85%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interface_demo/action/_progress_s.c.o[0m
+[2.522s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/libbase_interface_demo__rosidl_generator_py.so[0m
+[2.570s] [ 87%] Built target base_interface_demo__rosidl_generator_py
+[2.580s] [ 89%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.580s] [ 91%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.581s] [ 93%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.652s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.665s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.669s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.701s] [100%] Built target base_interface_demo__rosidl_typesupport_introspection_c__pyext
+[2.717s] [100%] Built target base_interface_demo__rosidl_typesupport_c__pyext
+[2.722s] [100%] Built target base_interface_demo__rosidl_typesupport_fastrtps_c__pyext
+[2.731s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo -- -j20 -l20
+[2.802s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo
+[2.806s] -- Install configuration: ""
+[2.806s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/ament_index/resource_index/rosidl_interfaces/base_interface_demo
+[2.806s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.807s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.807s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.807s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__functions.h
+[2.807s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__struct.h
+[2.807s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__functions.c
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__type_support.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/progress.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__functions.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__functions.c
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_generator_c__visibility_control.h
+[2.808s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.h
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__functions.c
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__functions.h
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__type_support.h
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__struct.h
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/sum.h
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/library_path.sh
+[2.809s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/library_path.dsv
+[2.810s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_c.so
+[2.810s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_c.so" to ""
+[2.810s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.810s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.810s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.810s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[2.810s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.811s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.811s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[2.811s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.811s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.811s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.811s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__rosidl_typesupport_fastrtps_c.h
+[2.811s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so
+[2.811s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[2.811s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__type_support.c
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.c
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.812s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__rosidl_typesupport_introspection_c.h
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__type_support.c
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_c.so
+[2.812s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_c.so" to ""
+[2.812s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_c.so
+[2.813s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_c.so" to ""
+[2.813s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.813s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.813s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/progress.hpp
+[2.814s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.814s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__struct.hpp
+[2.814s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__builder.hpp
+[2.814s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__traits.hpp
+[2.814s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.814s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.814s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__traits.hpp
+[2.814s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__builder.hpp
+[2.815s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.hpp
+[2.815s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.hpp
+[2.815s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.815s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.815s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__builder.hpp
+[2.816s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__struct.hpp
+[2.816s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__traits.hpp
+[2.816s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/sum.hpp
+[2.816s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.816s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.817s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.817s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/dds_fastrtps
+[2.817s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[2.817s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.817s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.817s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/dds_fastrtps
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[2.818s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.818s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/dds_fastrtps
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__rosidl_typesupport_fastrtps_cpp.hpp
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so
+[2.818s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.818s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[2.818s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action
+[2.818s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail
+[2.818s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/action/detail/progress__type_support.cpp
+[2.819s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[2.819s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.cpp
+[2.819s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv
+[2.819s] -- Up-to-date: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__type_support.cpp
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/include/base_interface_demo/base_interface_demo/srv/detail/sum__rosidl_typesupport_introspection_cpp.hpp
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_cpp.so
+[2.819s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_cpp.so
+[2.819s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_cpp.so" to ""
+[2.819s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/pythonpath.sh
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/pythonpath.dsv
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/top_level.txt
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action/_progress_s.c
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action/_progress.py
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action/__init__.py
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_introspection_c.c
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg
+[2.820s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student_s.c
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student.py
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/__init__.py
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv/_sum_s.c
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv/_sum.py
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv/__init__.py
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/libbase_interface_demo__rosidl_generator_py.so
+[2.821s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/__init__.py
+[2.852s] Listing '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/__init__.py'...
+[2.852s] Listing '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action/__init__.py'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/action/_progress.py'...
+[2.852s] Listing '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/__init__.py'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student.py'...
+[2.852s] Listing '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv'...
+[2.852s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv/__init__.py'...
+[2.853s] Compiling '/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/srv/_sum.py'...
+[2.856s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.856s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.857s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.857s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.857s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.857s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.858s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_py.so
+[2.858s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_py.so" to ""
+[2.858s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/msg/Student.idl
+[2.858s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/srv/Sum.idl
+[2.859s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/action/Progress.idl
+[2.859s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/msg/Student.msg
+[2.859s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/srv/Sum.srv
+[2.859s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/srv/Sum_Request.msg
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/srv/Sum_Response.msg
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/action/Progress.action
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/ament_index/resource_index/package_run_dependencies/base_interface_demo
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/ament_index/resource_index/parent_prefix_path/base_interface_demo
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.sh
+[2.860s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.dsv
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/path.sh
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/environment/path.dsv
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/local_setup.bash
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/local_setup.sh
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/local_setup.zsh
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/local_setup.dsv
+[2.861s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/package.dsv
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/ament_index/resource_index/packages/base_interface_demo
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cExport.cmake
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cExport-noconfig.cmake
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.862s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cExport.cmake
+[2.863s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.863s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cExport.cmake
+[2.863s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cExport-noconfig.cmake
+[2.864s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cppExport.cmake
+[2.864s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.864s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.864s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cppExport.cmake
+[2.865s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.865s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cppExport.cmake
+[2.865s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[2.865s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_pyExport.cmake
+[2.865s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_pyExport-noconfig.cmake
+[2.866s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake-extras.cmake
+[2.866s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.866s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.866s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[2.867s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_targets-extras.cmake
+[2.867s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.867s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.867s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig.cmake
+[2.868s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig-version.cmake
+[2.868s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo/share/base_interface_demo/package.xml
+[2.868s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo

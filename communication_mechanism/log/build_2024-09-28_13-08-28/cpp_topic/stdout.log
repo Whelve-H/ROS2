@@ -1,0 +1,36 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/cpp_topic_talker_define.dir/src/cpp_topic_talker_define.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cpp_topic_talker.dir/src/cpp_topic_talker.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_listener.dir/src/cpp_topic_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_topic_listener_define.dir/src/cpp_topic_listener_define.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable cpp_topic_talker[0m
+[ 75%] [32m[1mLinking CXX executable cpp_topic_talker_define[0m
+[ 75%] Built target cpp_topic_talker
+[ 75%] Built target cpp_topic_talker_define
+[ 87%] [32m[1mLinking CXX executable cpp_topic_listener_define[0m
+[100%] [32m[1mLinking CXX executable cpp_topic_listener[0m
+[100%] Built target cpp_topic_listener_define
+[100%] Built target cpp_topic_listener
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker_define
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_talker_define" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener_define
+-- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/lib/cpp_topic/cpp_topic_listener_define" to ""
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/environment/path.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.bash
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.sh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/package.dsv
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+-- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_topic/share/cpp_topic/package.xml

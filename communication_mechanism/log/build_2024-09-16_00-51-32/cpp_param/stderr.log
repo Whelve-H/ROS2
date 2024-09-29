@@ -1,7 +1,0 @@
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param_client.cpp:[m[K In member function ‘[01m[Kbool Param_Client::connect_server()[m[K’:
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param_client.cpp:15:28:[m[K [01;35m[Kwarning: [m[Kfor increment expression has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
-   15 |         for (i = 0; i++; [01;35m[Ki < 10[m[K)
-      |                          [01;35m[K~~^~~~[m[K
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_param/src/demo_param_client.cpp:30:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
-   30 |         if ([01;35m[Ki = 10[m[K)
-      |             [01;35m[K~~^~~~[m[K

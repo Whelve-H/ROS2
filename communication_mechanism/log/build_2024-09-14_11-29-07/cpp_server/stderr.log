@@ -1,7 +1,0 @@
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_server/src/cpp_server_client.cpp:[m[K In function ‘[01m[Kbool is_num(const char*)[m[K’:
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_server/src/cpp_server_client.cpp:45:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-   45 | [01;35m[K}[m[K
-      | [01;35m[K^[m[K
-[01m[K/home/ros/ROS2/communication_mechanism/src/cpp_server/src/cpp_server_client.cpp:42:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   42 | bool is_num([01;35m[Kconst char* str[m[K)
-      |             [01;35m[K~~~~~~~~~~~~^~~[m[K

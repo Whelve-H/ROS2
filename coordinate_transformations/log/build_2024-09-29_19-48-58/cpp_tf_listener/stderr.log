@@ -1,0 +1,7 @@
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:[m[K In constructor ‘[01m[Kcpp_tf_listener_coordinates::cpp_tf_listener_coordinates()[m[K’:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:39:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&cpp_tf_listener_coordinates::timer_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   39 |         timer = this->create_wall_timer(1s, std::bind(&[01;31m[Ktimer_callback[m[K, this));
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_tf_listener_coordinates.dir/build.make:76: CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_tf_listener_coordinates.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

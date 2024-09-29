@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster -- -j20 -l20
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[0.043s] [100%] Built target demo
+[0.048s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster -- -j20 -l20
+[0.061s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster
+[0.064s] -- Install configuration: ""
+[0.064s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/demo
+[0.064s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp_tf_broadcaster
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp_tf_broadcaster
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.sh
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.dsv
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.bash
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.sh
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.zsh
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.dsv
+[0.065s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.dsv
+[0.066s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/packages/cpp_tf_broadcaster
+[0.066s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig.cmake
+[0.066s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig-version.cmake
+[0.066s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.xml
+[0.067s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_broadcaster

@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_point[0m
+[ 33%] Built target demo
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable cpp_tf_listener_point[0m
+[ 83%] [32m[1mLinking CXX executable cpp_tf_listener_coordinates[0m
+[ 83%] Built target cpp_tf_listener_coordinates

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ROS2/communication_mechanism/src/cpp_time
+CMAKE_SOURCE_DIR = /home/huang/ros2/ROS2/communication_mechanism/src/cpp_time
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ROS2/communication_mechanism/build/cpp_time
+CMAKE_BINARY_DIR = /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time
 
 # Utility rule file for cpp_time_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_time_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_time_uninstall.dir/progress.make
 
 CMakeFiles/cpp_time_uninstall:
-	/usr/bin/cmake -P /home/ros/ROS2/communication_mechanism/build/cpp_time/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_time_uninstall: CMakeFiles/cpp_time_uninstall
 cpp_time_uninstall: CMakeFiles/cpp_time_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_time_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_time_uninstall.dir/clean
 
 CMakeFiles/cpp_time_uninstall.dir/depend:
-	cd /home/ros/ROS2/communication_mechanism/build/cpp_time && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ROS2/communication_mechanism/src/cpp_time /home/ros/ROS2/communication_mechanism/src/cpp_time /home/ros/ROS2/communication_mechanism/build/cpp_time /home/ros/ROS2/communication_mechanism/build/cpp_time /home/ros/ROS2/communication_mechanism/build/cpp_time/CMakeFiles/cpp_time_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huang/ros2/ROS2/communication_mechanism/src/cpp_time /home/huang/ros2/ROS2/communication_mechanism/src/cpp_time /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time/CMakeFiles/cpp_time_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_time_uninstall.dir/depend
 

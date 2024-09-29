@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20
+[0.024s] [35m[1mConsolidate compiler generated dependencies of target demo_param[0m
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target demo_param_client[0m
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target demo_param_server[0m
+[0.034s] [ 16%] [32m[1mLinking CXX executable demo_param[0m
+[0.038s] [ 50%] Built target demo_param_server
+[0.039s] [ 83%] Built target demo_param_client
+[0.109s] [100%] Built target demo_param
+[0.114s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param -- -j20 -l20
+[0.127s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param
+[0.130s] -- Install configuration: ""
+[0.130s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param
+[0.130s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param" to ""
+[0.130s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_server
+[0.130s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_server" to ""
+[0.130s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_client
+[0.131s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/lib/cpp_param/demo_param_client" to ""
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/package_run_dependencies/cpp_param
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/parent_prefix_path/cpp_param
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.sh
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/ament_prefix_path.dsv
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.sh
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/environment/path.dsv
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.bash
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.sh
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.zsh
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/local_setup.dsv
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.dsv
+[0.131s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/ament_index/resource_index/packages/cpp_param
+[0.132s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig.cmake
+[0.132s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/cmake/cpp_paramConfig-version.cmake
+[0.132s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_param/share/cpp_param/package.xml
+[0.133s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_param

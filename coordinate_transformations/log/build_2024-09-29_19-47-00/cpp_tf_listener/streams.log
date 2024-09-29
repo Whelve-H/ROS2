@@ -1,0 +1,13 @@
+[0.007s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener_coordinates[0m
+[0.026s] [ 33%] Built target demo
+[0.027s] [ 66%] Built target cpp_tf_listener_point
+[0.030s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o[0m
+[1.203s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:[m[K In constructor ‘[01m[Kcpp_tf_listener_coordinates::cpp_tf_listener_coordinates()[m[K’:
+[1.203s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:39:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&cpp_tf_listener_coordinates::timer_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.203s]    39 |         timer = this->create_wall_timer(1s, std::bind(&[01;31m[Ktimer_callback[m[K, this));
+[1.203s]       |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.497s] gmake[2]: *** [CMakeFiles/cpp_tf_listener_coordinates.dir/build.make:76: CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o] Error 1
+[2.497s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_tf_listener_coordinates.dir/all] Error 2
+[2.497s] gmake: *** [Makefile:146: all] Error 2
+[2.499s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20

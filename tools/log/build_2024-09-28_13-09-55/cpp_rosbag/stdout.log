@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/tools/src/cpp_rosbag/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/huang/ros2/ROS2/tools/build/cpp_rosbag
+[ 33%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bag_writer.dir/src/bag_writer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bag_reader.dir/src/bag_reader.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable demo[0m
+[ 66%] Built target demo
+[ 83%] [32m[1mLinking CXX executable bag_reader[0m
+[ 83%] Built target bag_reader
+[100%] [32m[1mLinking CXX executable bag_writer[0m
+[100%] Built target bag_writer
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/demo
+-- Set runtime path of "/home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/demo" to ""
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer
+-- Set runtime path of "/home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_writer" to ""
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_reader
+-- Set runtime path of "/home/huang/ros2/ROS2/tools/install/cpp_rosbag/lib/cpp_rosbag/bag_reader" to ""
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp_rosbag
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp_rosbag
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/ament_prefix_path.dsv
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/environment/path.dsv
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.bash
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.sh
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.dsv
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/ament_index/resource_index/packages/cpp_rosbag
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig.cmake
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/cmake/cpp_rosbagConfig-version.cmake
+-- Installing: /home/huang/ros2/ROS2/tools/install/cpp_rosbag/share/cpp_rosbag/package.xml

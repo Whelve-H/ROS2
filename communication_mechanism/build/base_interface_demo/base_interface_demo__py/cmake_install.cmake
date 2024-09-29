@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ROS2/communication_mechanism/build/base_interface_demo/base_interface_demo__py
+# Install script for directory: /home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/base_interface_demo__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ROS2/communication_mechanism/install/base_interface_demo")
+  set(CMAKE_INSTALL_PREFIX "/home/huang/ros2/ROS2/communication_mechanism/install/base_interface_demo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,0 +1,15 @@
+[0.006s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20
+[0.022s] [35m[1mConsolidate compiler generated dependencies of target demo[0m
+[0.022s] [35m[1mConsolidate compiler generated dependencies of target cpp_tf_listener[0m
+[0.025s] [ 25%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[0.026s] [ 50%] [32m[1mLinking CXX executable cpp_tf_listener[0m
+[0.039s] [ 75%] [32m[1mLinking CXX executable demo[0m
+[0.077s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.077s] (.text+0x1b): undefined reference to `main'
+[0.078s] collect2: error: ld returned 1 exit status
+[0.079s] gmake[2]: *** [CMakeFiles/cpp_tf_listener.dir/build.make:197: cpp_tf_listener] Error 1
+[0.079s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_tf_listener.dir/all] Error 2
+[0.079s] gmake[1]: *** Waiting for unfinished jobs....
+[0.110s] [ 75%] Built target demo
+[0.110s] gmake: *** [Makefile:146: all] Error 2
+[0.111s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_listener -- -j20 -l20

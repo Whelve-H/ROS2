@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_tf_point[0m
+[ 25%] Built target demo
+[ 50%] Built target cpp_dynamic_tf_broadcaster
+[ 75%] Built target cpp_static_tf_broadcaster
+[ 87%] [32mBuilding CXX object CMakeFiles/cpp_tf_point.dir/src/cpp_tf_point.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cpp_tf_point[0m
+[100%] Built target cpp_tf_point
+-- Install configuration: ""
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/demo
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_static_tf_broadcaster
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_dynamic_tf_broadcaster
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_tf_point
+-- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/lib/cpp_tf_broadcaster/cpp_tf_point" to ""
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp_tf_broadcaster
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp_tf_broadcaster
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.sh
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.sh
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/environment/path.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.bash
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.sh
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.zsh
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/ament_index/resource_index/packages/cpp_tf_broadcaster
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig.cmake
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/cmake/cpp_tf_broadcasterConfig-version.cmake
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_broadcaster/share/cpp_tf_broadcaster/package.xml

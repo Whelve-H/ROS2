@@ -1,0 +1,7 @@
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_broadcaster/src/cpp_static_tf_broadcaster.cpp:49:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   49 |     std::shared_ptr<StaticTransformBroadcaster> [01;31m[Kstatic_tf_broadcaster[m[K
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/cpp_static_tf_broadcaster.dir/build.make:76: CMakeFiles/cpp_static_tf_broadcaster.dir/src/cpp_static_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_static_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

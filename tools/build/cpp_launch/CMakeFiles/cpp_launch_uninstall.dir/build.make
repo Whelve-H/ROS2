@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ROS2/tools/src/cpp_launch
+CMAKE_SOURCE_DIR = /home/huang/ros2/ROS2/tools/src/cpp_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ROS2/tools/build/cpp_launch
+CMAKE_BINARY_DIR = /home/huang/ros2/ROS2/tools/build/cpp_launch
 
 # Utility rule file for cpp_launch_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_launch_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_launch_uninstall.dir/progress.make
 
 CMakeFiles/cpp_launch_uninstall:
-	/usr/bin/cmake -P /home/ros/ROS2/tools/build/cpp_launch/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/huang/ros2/ROS2/tools/build/cpp_launch/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_launch_uninstall: CMakeFiles/cpp_launch_uninstall
 cpp_launch_uninstall: CMakeFiles/cpp_launch_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_launch_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_launch_uninstall.dir/clean
 
 CMakeFiles/cpp_launch_uninstall.dir/depend:
-	cd /home/ros/ROS2/tools/build/cpp_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ROS2/tools/src/cpp_launch /home/ros/ROS2/tools/src/cpp_launch /home/ros/ROS2/tools/build/cpp_launch /home/ros/ROS2/tools/build/cpp_launch /home/ros/ROS2/tools/build/cpp_launch/CMakeFiles/cpp_launch_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huang/ros2/ROS2/tools/build/cpp_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huang/ros2/ROS2/tools/src/cpp_launch /home/huang/ros2/ROS2/tools/src/cpp_launch /home/huang/ros2/ROS2/tools/build/cpp_launch /home/huang/ros2/ROS2/tools/build/cpp_launch /home/huang/ros2/ROS2/tools/build/cpp_launch/CMakeFiles/cpp_launch_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_launch_uninstall.dir/depend
 

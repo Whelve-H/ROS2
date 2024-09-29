@@ -1,11 +1,11 @@
 {
   "package_name": "base_interface_demo",
-  "output_dir": "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_typesupport_introspection_cpp/base_interface_demo",
+  "output_dir": "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_typesupport_introspection_cpp/base_interface_demo",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:msg/Student.idl",
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:srv/Sum.idl",
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:action/Progress.idl"
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:msg/Student.idl",
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:srv/Sum.idl",
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo:action/Progress.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -25,9 +25,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/msg/Student.idl",
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/srv/Sum.idl",
-    "/home/ros/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/action/Progress.idl",
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/msg/Student.idl",
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/srv/Sum.idl",
+    "/home/huang/ros2/ROS2/communication_mechanism/build/base_interface_demo/rosidl_adapter/base_interface_demo/action/Progress.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

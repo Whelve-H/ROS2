@@ -1,0 +1,48 @@
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:[m[K In constructor ‘[01m[Kcpp_tf_listener_coordinates::cpp_tf_listener_coordinates()[m[K’:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:39:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&cpp_tf_listener_coordinates::timer_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   39 |         timer = this->create_wall_timer(1s, std::bind(&[01;31m[Ktimer_callback[m[K, this));
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:2[m[K:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:[m[K In member function ‘[01m[Kvoid cpp_tf_listener_coordinates::timer_callback()[m[K’:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:53:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"父坐标系: %s"[m[K,ts.header.frame_id);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:53:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   53 |         RCLCPP_INFO(this->get_logger(),"父坐标系: [01;36m[K%s[m[K",ts.header.frame_id);
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:2[m[K:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:54:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_child_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   54 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"子坐标系: %s"[m[K,ts.child_frame_id);
+      |                                        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_listener/src/cpp_tf_listener_coordinates.cpp:54:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   54 |         RCLCPP_INFO(this->get_logger(),"子坐标系: [01;36m[K%s[m[K",ts.child_frame_id);
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kchar*[m[K
+gmake[2]: *** [CMakeFiles/cpp_tf_listener_coordinates.dir/build.make:76: CMakeFiles/cpp_tf_listener_coordinates.dir/src/cpp_tf_listener_coordinates.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/cpp_tf_listener_coordinates.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

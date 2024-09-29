@@ -1,0 +1,83 @@
+[0.010s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/cpp_time -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.332s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.404s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.441s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.483s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.485s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.794s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.101s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.973s] -- Looking for pthread.h
+[2.017s] -- Looking for pthread.h - found
+[2.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.065s] -- Found Threads: TRUE  
+[2.090s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.125s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.125s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huang/ros2/ROS2/communication_mechanism/src/cpp_time/include>
+[2.125s] -- Configured cppcheck exclude dirs and/or files: 
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'uncrustify' to check C / C++ code style
+[2.126s] -- Configured uncrustify additional arguments: 
+[2.126s] -- Added test 'xmllint' to check XML markup files
+[2.127s] -- Configuring done
+[2.134s] -- Generating done
+[2.135s] -- Build files have been written to: /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time
+[2.140s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huang/ros2/ROS2/communication_mechanism/src/cpp_time -DCMAKE_INSTALL_PREFIX=/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time
+[2.141s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[2.162s] [ 12%] [32mBuilding CXX object CMakeFiles/demo_time_rate.dir/src/demo_time_rate.cpp.o[0m
+[2.162s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_time_time.dir/src/demo_time_time.cpp.o[0m
+[2.164s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_time_operation.dir/src/demo_time_operation.cpp.o[0m
+[2.164s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_time_duration.dir/src/demo_time_duration.cpp.o[0m
+[3.978s] [ 62%] [32m[1mLinking CXX executable demo_time_duration[0m
+[4.030s] [ 75%] [32m[1mLinking CXX executable demo_time_rate[0m
+[4.035s] [ 87%] [32m[1mLinking CXX executable demo_time_operation[0m
+[4.045s] [100%] [32m[1mLinking CXX executable demo_time_time[0m
+[4.059s] [100%] Built target demo_time_duration
+[4.123s] [100%] Built target demo_time_rate
+[4.127s] [100%] Built target demo_time_operation
+[4.138s] [100%] Built target demo_time_time
+[4.143s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time -- -j20 -l20
+[4.158s] Invoking command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time
+[4.161s] -- Install configuration: ""
+[4.161s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_rate
+[4.162s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_rate" to ""
+[4.162s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_time
+[4.162s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_time" to ""
+[4.162s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_duration
+[4.162s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_duration" to ""
+[4.162s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_operation
+[4.162s] -- Set runtime path of "/home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/lib/cpp_time/demo_time_operation" to ""
+[4.162s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/package_run_dependencies/cpp_time
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/parent_prefix_path/cpp_time
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.sh
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/ament_prefix_path.dsv
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.sh
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/environment/path.dsv
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.bash
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.sh
+[4.163s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.zsh
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/local_setup.dsv
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.dsv
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/ament_index/resource_index/packages/cpp_time
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig.cmake
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/cmake/cpp_timeConfig-version.cmake
+[4.164s] -- Installing: /home/huang/ros2/ROS2/communication_mechanism/install/cpp_time/share/cpp_time/package.xml
+[4.165s] Invoked command in '/home/huang/ros2/ROS2/communication_mechanism/build/cpp_time' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/communication_mechanism/build/cpp_time

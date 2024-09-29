@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "cpp_topic")
 set(cpp_topic_VERSION "0.0.0")
-set(cpp_topic_MAINTAINER "orangepi <orangepi@todo.todo>")
+set(cpp_topic_MAINTAINER "小黄同学 <h3104894518@foxmail.com>")
 set(cpp_topic_BUILD_DEPENDS "rclcpp" "std_msgs" "base_interface_demo")
 set(cpp_topic_BUILDTOOL_DEPENDS "ament_cmake")
 set(cpp_topic_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "base_interface_demo")

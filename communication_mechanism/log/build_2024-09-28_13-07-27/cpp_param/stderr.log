@@ -1,0 +1,7 @@
+collect2: fatal error: ld terminated with signal 11 [Segmentation fault]
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo_param.dir/build.make:151: demo_param] Error 1
+gmake[2]: *** Deleting file 'demo_param'
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo_param.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

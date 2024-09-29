@@ -1,2 +1,0 @@
-Invoking command in '/home/ros/ROS2/turtle/build/exercise': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/turtle/src/exercise -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/turtle/install/exercise
-Invoked command in '/home/ros/ROS2/turtle/build/exercise' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/turtle/src/exercise -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/turtle/install/exercise
