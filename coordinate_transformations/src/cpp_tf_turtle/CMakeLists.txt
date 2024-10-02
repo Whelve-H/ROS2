@@ -45,6 +45,7 @@ ament_target_dependencies(
   "tf2_ros"
   "geometry_msgs"
   "message_filters"
+  "turtlesim"
 )
 ament_target_dependencies(
   exer_tf_listener

@@ -1,0 +1,2 @@
+Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
+Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20

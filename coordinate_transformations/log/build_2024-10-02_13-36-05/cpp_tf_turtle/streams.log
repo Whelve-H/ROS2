@@ -1,0 +1,16 @@
+[0.007s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target exer_spawn[0m
+[0.067s] [ 16%] [32mBuilding CXX object CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o[0m
+[0.068s] [ 50%] Built target exer_tf_listener
+[0.069s] [ 66%] [32mBuilding CXX object CMakeFiles/exer_spawn.dir/src/exer_spawn.cpp.o[0m
+[0.167s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[0.167s]     7 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+[0.167s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.167s] compilation terminated.
+[0.168s] gmake[2]: *** [CMakeFiles/exer_tf_broadcaster.dir/build.make:76: CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o] Error 1
+[0.168s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/exer_tf_broadcaster.dir/all] Error 2
+[0.168s] gmake[1]: *** Waiting for unfinished jobs....
+[1.770s] [ 83%] [32m[1mLinking CXX executable exer_spawn[0m
+[1.893s] [ 83%] Built target exer_spawn
+[1.893s] gmake: *** [Makefile:146: all] Error 2
+[1.894s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20

@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target exer_spawn[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o[0m
+[ 50%] Built target exer_tf_listener
+[ 66%] [32mBuilding CXX object CMakeFiles/exer_spawn.dir/src/exer_spawn.cpp.o[0m
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+    7 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exer_tf_broadcaster.dir/build.make:76: CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/exer_tf_broadcaster.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable exer_spawn[0m
+[ 83%] Built target exer_spawn
+gmake: *** [Makefile:146: all] Error 2

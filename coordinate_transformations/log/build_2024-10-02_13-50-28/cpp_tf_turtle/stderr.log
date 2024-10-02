@@ -1,0 +1,7 @@
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KExer_tf_broadcater::Exer_tf_broadcater(const string&)[m[K’:
+[01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:27:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   27 |          [01;31m[K=[m[K this->create_subscription<Pose>("/turtle1/pose", 10, std::bind(&Exer_tf_broadcater::sub_callback, this,std::placeholders::_1));
+      |          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/exer_tf_broadcaster.dir/build.make:76: CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/exer_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

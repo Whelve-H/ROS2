@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target exer_tf_listener[0m
+[0.032s] [ 33%] Built target exer_spawn
+[0.033s] [ 66%] Built target exer_tf_broadcaster
+[0.037s] [ 83%] [32mBuilding CXX object CMakeFiles/exer_tf_listener.dir/src/exer_tf_listener.cpp.o[0m
+[4.364s] [100%] [32m[1mLinking CXX executable exer_tf_listener[0m
+[4.582s] [100%] Built target exer_tf_listener
+[4.593s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
+[4.605s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle
+[4.607s] -- Install configuration: ""
+[4.608s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_spawn
+[4.608s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_broadcaster
+[4.608s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_listener
+[4.609s] -- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_listener" to ""
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/launch
+[4.610s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/launch/exer.launch.py
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_tf_turtle
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_tf_turtle
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/ament_prefix_path.sh
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/ament_prefix_path.dsv
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/path.sh
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/path.dsv
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.bash
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.sh
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.zsh
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.dsv
+[4.610s] -- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/package.dsv
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/packages/cpp_tf_turtle
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/cmake/cpp_tf_turtleConfig.cmake
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/cmake/cpp_tf_turtleConfig-version.cmake
+[4.610s] -- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/package.xml
+[4.611s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle

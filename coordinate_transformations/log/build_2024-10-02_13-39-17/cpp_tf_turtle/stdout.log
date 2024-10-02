@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target exer_tf_broadcaster[0m
+[ 66%] Built target exer_tf_listener
+[ 66%] Built target exer_spawn
+[ 83%] [32mBuilding CXX object CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o[0m

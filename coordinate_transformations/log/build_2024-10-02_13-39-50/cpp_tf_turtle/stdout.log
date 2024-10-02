@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target exer_tf_broadcaster[0m
+[ 66%] Built target exer_tf_listener
+[ 66%] Built target exer_spawn
+[ 83%] [32mBuilding CXX object CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable exer_tf_broadcaster[0m
+[100%] Built target exer_tf_broadcaster
+-- Install configuration: ""
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_spawn
+-- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_spawn" to ""
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_broadcaster
+-- Set runtime path of "/home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_broadcaster" to ""
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/lib/cpp_tf_turtle/exer_tf_listener
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/launch
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/launch/exer.launch.py
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_tf_turtle
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_tf_turtle
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/ament_prefix_path.sh
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/path.sh
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/environment/path.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.bash
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.sh
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.zsh
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/local_setup.dsv
+-- Installing: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/package.dsv
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/ament_index/resource_index/packages/cpp_tf_turtle
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/cmake/cpp_tf_turtleConfig.cmake
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/cmake/cpp_tf_turtleConfig-version.cmake
+-- Up-to-date: /home/huang/ros2/ROS2/coordinate_transformations/install/cpp_tf_turtle/share/cpp_tf_turtle/package.xml

@@ -1,0 +1,13 @@
+[0.006s] Invoking command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target exer_tf_broadcaster[0m
+[0.027s] [ 66%] Built target exer_tf_listener
+[0.027s] [ 66%] Built target exer_spawn
+[0.029s] [ 83%] [32mBuilding CXX object CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o[0m
+[1.131s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KExer_tf_broadcater::Exer_tf_broadcater(const string&)[m[K’:
+[1.131s] [01m[K/home/huang/ros2/ROS2/coordinate_transformations/src/cpp_tf_turtle/src/exer_tf_broadcaster.cpp:27:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[1.131s]    27 |          [01;31m[K=[m[K this->create_subscription<Pose>("/turtle1/pose", 10, std::bind(&Exer_tf_broadcater::sub_callback, this,std::placeholders::_1));
+[1.131s]       |          [01;31m[K^[m[K
+[2.292s] gmake[2]: *** [CMakeFiles/exer_tf_broadcaster.dir/build.make:76: CMakeFiles/exer_tf_broadcaster.dir/src/exer_tf_broadcaster.cpp.o] Error 1
+[2.292s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/exer_tf_broadcaster.dir/all] Error 2
+[2.292s] gmake: *** [Makefile:146: all] Error 2
+[2.294s] Invoked command in '/home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/coordinate_transformations/build/cpp_tf_turtle -- -j20 -l20
