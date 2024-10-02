@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:30 (target_compile_features):
+  Cannot specify compile features for target "demo" which is not built by
+  this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:55 (install):
+  install TARGETS given target "launch" which does not exist.
+
+[0m
