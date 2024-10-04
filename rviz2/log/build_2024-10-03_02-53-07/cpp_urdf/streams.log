@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/huang/ros2/ROS2/rviz2/build/cpp_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/rviz2/build/cpp_urdf -- -j20 -l20
+[0.039s] [100%] Built target demo
+[0.043s] Invoked command in '/home/huang/ros2/ROS2/rviz2/build/cpp_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/huang/ros2/ROS2/rviz2/build/cpp_urdf -- -j20 -l20
+[0.055s] Invoking command in '/home/huang/ros2/ROS2/rviz2/build/cpp_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/rviz2/build/cpp_urdf
+[0.057s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/lib/cpp_urdf/demo
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/launch
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/launch/display.launch.py
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/rviz
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/rviz/urdf.rviz
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/meshes
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf/xacro
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf/urdf
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf/urdf/demo_1_copy.urdf
+[0.058s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf/urdf/demo_1.urdf
+[0.059s] -- Installing: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/urdf/urdf/demo_2_link.urdf
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/ament_index/resource_index/package_run_dependencies/cpp_urdf
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/ament_index/resource_index/parent_prefix_path/cpp_urdf
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/environment/path.sh
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/environment/path.dsv
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/local_setup.bash
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/local_setup.sh
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/local_setup.zsh
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/local_setup.dsv
+[0.059s] -- Installing: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/package.dsv
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/ament_index/resource_index/packages/cpp_urdf
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/cmake/cpp_urdfConfig.cmake
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/cmake/cpp_urdfConfig-version.cmake
+[0.059s] -- Up-to-date: /home/huang/ros2/ROS2/rviz2/install/cpp_urdf/share/cpp_urdf/package.xml
+[0.060s] Invoked command in '/home/huang/ros2/ROS2/rviz2/build/cpp_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/huang/ros2/ROS2/rviz2/build/cpp_urdf

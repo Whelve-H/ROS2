@@ -1,0 +1,43 @@
+<!-- 
+需求:创建一个地盘,创建一个可以旋转360度的摄像头 
+实现:1.创建地盘的link
+     2.创建摄像头link
+     3.通过joint关联底盘和摄像头
+-->
+
+<robot name="demo_2_joint">
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.2 0.8"/>
+    </material>
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 0.8"/>
+    </material>
+
+    <!-- 1.创建地盘的link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.6 0.3 0.2"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+    </link>
+    <!-- 2.创建摄像头link -->
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.02 0.1 0.04"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <!-- 3.通过joint关联底盘和摄像头 -->
+    <joint name="camera_base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <!-- 设置偏移量和旋转度 -->
+         <origin xyz="0.25 0.0 0.12" rpy="0.0 0.0 0.0"/>
+        <!-- 延那个轴旋转 -->
+         <axis xyz="0 0 1"/>
+    </joint>
+</robot>

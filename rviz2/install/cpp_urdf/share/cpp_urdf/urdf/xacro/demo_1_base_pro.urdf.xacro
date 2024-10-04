@@ -1,0 +1,16 @@
+<!-- 
+演示变量的使用
+1.变量的声明
+2.变量的调用
+3.变量的运算  
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo_1_pro">
+    <!-- 1.变量的声明 -->
+     <!-- 创建 int num1 -->
+    <xacro:property name="num1" value="10"/>
+    <xacro:property name="num2" value="20"/>
+    <!-- 2.变量的调用 -->
+    <car length = "${num1}"  with = "${num2}"></car>
+    <!-- 3.变量的运算 -->
+    <sum value = "${num1*num2}"></sum>
+</robot>

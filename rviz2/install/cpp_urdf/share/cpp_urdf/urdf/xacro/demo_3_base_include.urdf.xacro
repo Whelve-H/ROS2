@@ -1,0 +1,5 @@
+<!-- 需求:包含其他的xacro文件 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo_3_include">
+    <xacro:include filename="demo_1_base_pro.urdf.xacro"/>
+    <xacro:include filename="demo_2_base_func.urdf.xacro"/>
+</robot>

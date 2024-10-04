@@ -1,0 +1,9 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo_3_func">
+    <!-- 宏的定义 -->
+    <xacro:macro name="get_sum" params="num1 num2">
+        <sum value="${num1+num2}"></sum>
+    </xacro:macro>
+    <!-- 宏的调用 -->
+    <xacro:get_sum num1="10" num2="20"></xacro:get_sum>
+    <xacro:get_sum num1="70" num2="20"></xacro:get_sum>
+</robot>
